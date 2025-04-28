@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103848">
+Niech G będzie rysunkiem płaskim <phrase id="468308">grafu spójnego</phrase>, <phrase id="468309">grafu prostego</phrase> z parametrami n, m, f (n-liczba wierzchołków, m-liczba krawędzi, f-liczba ścian). 
+
+Wtedy n-m+f = 2 (<phrase id="468311">wzór Eulera</phrase>). 
+
+Przez indukcje po liczbie krawędzi (m). 
+
+I - m = 0, n = 1, f = 1 - wtedy graf prosty o jednym wierzchołku =&gt; 1-0+1 = 2 
+
+Założenie indukcyjne: T(m-1) m&gt;0 
+
+Teza indukcyjna: T(m) 
+
+1. G jest drzewem 
+
+m = n-1, f = 1 =&gt; n - (n - 1) + 1 = n - n + 1 + 1 = 2 
+
+2. G nie jest drzewem 
+
+G zawiera cykl. Niech e będzie dowolną krawędzią tego cyklu. G-e jest grafem planarnym i spójnym. G ma m-1 krawędzi, n wierzchołków oraz f-1 ścian. Na mocy założenia indukcyjnego n - (m - 1) + f - 1 = 2, a stąd n - m + f = 2. 
+
+Dla każdego wielościanu n - m + f = 2 
+
+Wniosek 2 
+
+Niech G będzie rysunkiem płaskim grafu mającego n wierzchołków, m krawędzi, f ścian i k składowych, wtedy n - m + f = k + 1 = 2 i = 1, 2, ..., k 
+
+n - m + f + (k-1) = 2k 
+
+n - m + f = 2k - k + 1 = k + 1 
+
+Jeżeli G jest spójnym, planarnym grafem prostym mającym n wierzchołków ( ) i m krawędzi to: 
+
+Każda ściana jest ograniczona przynajmniej 3 krawędziami. Każda krawędz ograniczająca ścianę jest wspólna dla dwóch ścian. 
+
+Jeżeli ponad to G nie zawiera trójkątów, to 
+
+Dowód 
+
+G bez trójkątów. Każda ściana jest ograniczona przynajmniej 4 krawędziami. 
+
+K 5 n = 5, 
+
+10 &gt; 3*5 - 6 
+
+10 &gt; 9 
+
+czyli m &gt; 3n - 6 
+
+z wniosku 3 graf nie jest planarny 
+
+Wniosek 6 
+
+Graf K 3,3 jest nieplanarny 
+
+K 3,3 jest grafem bez trójkątów, bo dwudzielny 
+
+n = 6, m = 9 
+
+9 &gt; 2 - 6- 4 
+
+9 &gt; 8 
+
+m &gt; 2n - 4 
+
+z wniosku 4 graf K 3,3 nie jest planarny 
+
+Każdy planarny graf prosty zawiera wierzchołek stopnia nie większego niż 5. 
+
+Dowód 
+
+Dla n &lt; 3 tak jest. 
+
+Przyjmijmy . Załóżmy, że graf G jest spójny (w przeciwnym razie rozpatrujemy dowolną składową). Gdyby stopień każdego z wierzchołka był większy od 5 to zachodziła by nierówność czyli . Z wniosku 3 m &lt; 3n - 6 wynika sprzeczność. 
+</document>

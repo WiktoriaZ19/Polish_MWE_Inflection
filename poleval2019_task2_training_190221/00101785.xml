@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101785">
+Choć zazwyczaj jestem bardzo ostrożna i nie klikam we wszystko co popadnie, tym razem nie zachowałam czujności rewolucyjnej – kliknęłam w <phrase id="72261">URL</phrase> z wiadomości odruchowo i bez zastanowienia. I tylko dzięki <phrase id="72258">Firefoxowi</phrase> nie weszłam na stronę, która usiłowała się otworzyć. Przeglądarka zidentyfikowała stronę jako niebezpieczną. Sprawdziłam dokładniej adres pod linkiem – ukryto w nim fragment – <phrase id="72262">secure-myspace.com/redirect.htm?blog.myspace.com/</phrase> . Poza podejrzanym przekierowaniem autentyczny adres nie zawiera myślnika tylko kropkę (<phrase id="72263">secure.myspace.com</phrase>). 
+
+Z ciekawości odwiedziłam kilka profili użytkowników <phrase id="72259">MySpace</phrase> i w wielu komentarzach znalazłam podobną wiadomość wysłaną z kont różnych użytkowników. Przypuszczam, że cała ta akcja działa na zasadzie łańcuszka (tak, jak wiele „robali” mailowych). Jeśli ktoś otworzy stronę podaną w linku hakerzy uzyskują dostęp do jego konta i z niego rozsyłają fałszywe komentarze do wszystkich przyjaciół. Moja wiedza na temat hakowania jest zerowa (i nie odczuwam potrzeby szkolenia się w tej dziedzinie) zatem być może się mylę. 
+
+W każdym razie użytkownikom <phrase id="72260">MySpace</phrase> radzę bardzo uważać na to w co klikają (choć pewnie większość nie klika mechanicznie). 
+</document>

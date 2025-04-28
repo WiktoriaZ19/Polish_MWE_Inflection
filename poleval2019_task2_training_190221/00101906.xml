@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101906">
+Czym są wzorce projektowe? W <phrase id="467851">inżynierii oprogramowania</phrase> <phrase id="467852">wzorzec projektowy</phrase> (ang. design pattern) to uniwersalne, sprawdzone rozwiązanie często pojawiających się problemów projektowych. Ciekawą definicję wzorca projektowego podali <phrase id="73975">C. <phrase id="73977">Alexander</phrase></phrase>, <phrase id="467855">S. <phrase id="73978">Ishikawa</phrase></phrase>, <phrase id="73976">M. <phrase id="73979">Silverstein</phrase></phrase> w " <phrase id="80444">A Pattern Language</phrase> " : " Każdy wzorzec opisuje problem, który ciągle pojawia się w naszej dziedzinie, a następnie określa zasadniczą część jego rozwiązania w taki sposób, by można było zastosować je nawet milion razy, za każdym razem w nieco inny sposób ", ta definicja w pełni oddaje idee wzorca projektowego (nie tylko w informatyce). 
+
+Architekt <phrase id="73981">Christopher</phrase> <phrase id="73982">Alexander</phrase> , jako pierwszy uchwycił koncepcję idei projektowych jako rodzaju wzorca. Według niego wzorce zostały pomyślane jako zestaw sprawdzonych koncepcji architektonicznych służących konstruowaniu środowiska mieszkalnego i środowiska pracy. 
+
+Sam termin wzorca projektowego (design pattern) do inżynierii oprogramowania wprowadził około roku 1987 <phrase id="73983">Kent <phrase id="73987">Beck</phrase></phrase>, natomiast swoją popularyzację zawdzięcza kultowej już książce <phrase id="80442">Desing Pattern</phrase> autorstwa <phrase id="80445">Gammy</phrase>, <phrase id="73988">Helma</phrase>, <phrase id="73989">Johnsona</phrase> i <phrase id="73990">Vlissidesa</phrase>, zwanych potocznie " <phrase id="80450">Bandą Czworga</phrase> " lub " <phrase id="80451">Bandą Czterech</phrase> " (ang. <phrase id="80452">Gang of Four</phrase>). 
+
+Obecnie wzorce projektowe są związane z programowaniem obiektowym, przedstawiają one przykładowe rozwiązanie projektowe części aplikacji (w przeciwieństwie do algorytmu, który rozwiązuje problem obliczeniowy). 
+
+Tworząc rozwiązanie oparte na wzorcach projektowych, nie staramy się skupić na funkcjonowaniu poszczególnych elementów ale na abstrakcyjnym opisu zależności pomiędzy klasami, co powoduje standaryzowanie tworzonego kodu, który jest bardziej czytelny, mniej zawodny oraz bardziej zrozumiały. Wartością wzorców projektowych nie jest tylko rozwiązanie problemu ale również sam wzorzec stanowi swoistą dokumentacje, która wyjaśnia cel, działanie, zalety danego rozwiązania, co pociąga za sobą łatwiejsze stosowanie oraz adaptowanie wzorca w danym zastosowaniu. 
+
+Korzystanie z wzorców projektowych na ogół znacznie przyspiesza wytwarzanie gotowych aplikacji oraz usprawnia zmiany dokonywane w celu zaspokojenia ewoluujących oczekiwań względem projektowanego systemu: rozszerzeniem jego funkcjonalności, zmianę sposobu oraz formatu wprowadzanych danych, czy to stosowaniem aplikacji do różnych rodzajów użytkowników. Nie wykorzystywanie wzorców projektowych często pociąga za sobą gruntowną przebudowę zaawansowanego lub wręcz gotowego oprogramowania. 
+
+<phrase id="80453">Banda Czworga</phrase> w swojej książce przedstawiła szereg wzorców projektowych, które podzieli na trzy różne typy. 
+</document>

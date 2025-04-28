@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103814">
+Jak wspomniano w rozdziale 4. sposób prowadzenia pomiarów długoterminowych nie przewiduje notowania czasu pojawiania się, ani rodzaju zachodzących zjawisk. Wykorzystywane do analiz przebiegi drgań zawierają więc naprzemiennie i o różnych czasach trwania fragmenty drgań ustroju koparki podczas czynnej pracy oraz poza nią. 
+
+Tak skonfigurowany <phrase id="484233">tor pomiarowy</phrase> poddaje się tak zwanemu <phrase id="484234">skalowaniu dynamicznemu</phrase>. Polega ono na przyłożeniu w najdalej wysuniętym punkcie wysięgnika <phrase id="484235">koła czerpakowego</phrase> siły o znanej wartości, a następnie nagłym jej zniesieniu. W rezultacie takiego zabiegu otrzymuje się: 
+
+- informację o liniowości odpowiedzi ustroju koparki względem obciążenia eksploatacyjnego, 
+
+- możliwość przejścia z <phrase id="484238">odkształceń względnych</phrase> (h) danego podzespołu na jednostki siły, naprężenia lub momentu – w zależności od potrzeby, 
+
+- odpowiedź częstotliwościowa konstrukcji koparki w celu określenia jej parametrów modalnych. 
+
+Bardziej szczegółowo przebieg skalowania dynamicznego jest opisany w rozdziale 7. Ponieważ, jak wspomniano zależność odkształceń względnych do innych jednostek jest liniowa i przejście między nimi jest trywialne, w swej pracy autor zdecydował się posługiwać najbardziej elementarną (w przypadku pomiarów tensometrycznych) „mechaniczną” wielkością, to jest odkształceniem względnym wyrażonym w promilach. 
+</document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103857">
+Metody wykorzystujące uczenie pod nadzorem osiągnęły najlepsze wyniki w konkursach Senseval. Są to: 
+
+Podejście oparte na hierarchicznych listach decyzyjnych osiągnęło najlepsze wyniki w zadaniu próby leksykalnej w konkursie Senseval-1 (Yarowsky, 2000). W pracy zostały wykorzystane dwa główne rodzaje cech: współwystępowanie słów w małym i szerszym kontekście oraz <phrase id="484346">relacje syntaktyczne</phrase> wydobyte przy użyciu parsera. Dla cech zostało użyte 5 typów tokenów: słowa, lematy, <phrase id="484349">części mowy</phrase>, <phrase id="484350">klasy słów</phrase>, zapytania/reguły (np. czy słowo jest napisane z dużej litery). 
+
+W konkursie Senseval-2 najlepszy system był oparty na łączeniu klasyfikatorów (Florian et al., 2002). System ten łączy heterogeniczne klasyfikatory (<phrase id="484352">model wektorowy</phrase>, <phrase id="484353">modele Bayesowskie</phrase>, listy decyzyjne) używając cech zbliżonych do użytych w pracy (Yarowsky, 2000). Niewiele gorsze wyniki uzyskał system oparty na uczeniu pamięciowym (IBL, Instance Based Learning) z selekcją cech opartą na metodzie przeszukiwania w przód (Mihalcea, 2003b). 
+
+W Senseval-3 najlepszy system używał klasyfikatora Naive Bayes. Niewiele gorsze wyniki uzyskały metody stosujące regularyzowaną metodę najmniejszych kwadratów (przy wykorzystaniu cech: część mowy słowa niejednoznacznego, małego okna z odnotowanymi częściami mowy, lematem i słowem oraz lematy słów w szerokim kontekście) i SVM (jądra oparte na cechach: sekwencje lematów i części mowy oraz worek słów po redukcji wymiarowości metodą rozkładu macierzy na czynniki osobliwe) (Mihalcea et al., 2004). 
+
+Konkurs SemEval-1 został zdominowany przez systemy wykorzystujące SVM (Pradhan et al., 2007). Najlepszy z systemów poza standardowymi cechami wykorzystywał cechy dziedzinowe wydobyte przy pomocy metody LDA (ang. Latent Dirichlet Allocation) (Cai et al., 2007). 
+
+Powyższa lista metod oczywiście nie wyczerpuje podejść wykorzystujących nadzorowane uczenie maszynowe, które próbowano stosować w problemie UZL. Można się pokusić o stwierdzenie, że większość metod, które odniosły sukces w innych dziedzinach zastosowań była stosowana w dziedzinie UZL. W literaturze można znaleźć dwie prace podsumowujące różnorodność badań przeprowadzonych w dziedzinie: (Agirre I Edmonds, 2006) i (Navigli, 2009). 
+</document>

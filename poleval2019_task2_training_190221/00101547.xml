@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101547">
+Kilka dni temu opisywaliśmy różnicę w wydajności między system <phrase id="65575">Archlinux</phrase>, a <phrase id="309550">Ubuntu</phrase>. W obu przypadkach zastosowano tą samą konfigurację sprzętową, te same pakiety i domyślnie włączonego <phrase id="65578">Compiza</phrase> w drugim systemie, czego pierwszy nie posiadał. W jednym teście dało to zdumiewające wyniki. <phrase id="356883">Serwis <phrase id="65579">phoronix.com</phrase></phrase> postanowił zrobić kolejne testy na sprawdzenie, dlaczego tak się dzieje. 
+
+Z systemu usunięto wszystkie zależności związane z aplikacjami, jakie korzystały z bibliotek środowiska graficznego <phrase id="67787">KDE 3</phrase>. W systemie znajdziemy przeglądarkę internetową <phrase id="65581">Mozilla Firefox</phrase> oraz klienta poczty Sylpheed. Dodano wsparcie dla kart bezprzewodowych sieciowych <phrase id="356891"><phrase id="65585">Realtek</phrase> <phrase id="65586">RTL8191SE</phrase></phrase> i <phrase id="65584">RTL8192SE</phrase>. Pojawiły się sterowniki dla kamerek internetowych Microdia. Zostało ono tak przygotowane, aby zapewnić jak najlepszą wydajność na komputerach domowych. 
+
+<phrase id="65590">Ben</phrase> Zhao ogłosił wydanie systemu . Jest to mała dystrybucja <phrase id="65592">Linuksa</phrase>, która działa jako LiveCD. Domyślnym środowiskiem graficznym jest Xfce. 
+
+Wydana została nowa wersja otwartej implementacji OpenGL. Tak, jak zaplanowano, nowe wydanie pojawiło się pod koniec marca, razem z planowanym przez <phrase id="65595">Intela</phrase>, kwartalnym wydawaniem zaktualizowanych sterowników graficznych dla <phrase id="65596">Linuksa</phrase>. 
+
+Wydanie to zawiera głównie poprawki na znalezione wcześniej błędy. 
+
+Wpisem wartym uwagi w liście zmian jest " Wsparcie produkcyjne dla <phrase id="65597">Ubuntu 9.10</phrase> ". Co ciekawe są to sterowniki nieoficjalnie zaprezentowane już we Wrześniu, ale jak się okazuje najnowsze wydanie <phrase id="65598">Karmic Koala</phrase> działało dobrze z październikowym wydaniem <phrase id="65599">Katalizatorów</phrase>. 
+
+Dzięki temu, od teraz wbudowane połączenia DisplayPort powinny działać poprawnie. Warto nadmienić, że obsługa była dodana wcześniej w otwartych sterownikach, ale nie działała należycie dobrze. 
+
+Wydana została pierwsza wersja beta systemu <phrase id="65600">VLOS 2.0</phrase> . Dystrybucja ta opiera się o system Gentoo i działa jako LiveDVD. W tym wydaniu poprawiona została obsługa kart graficznych <phrase id="67789">NVIDIA</phrase> oraz ATI. System sam wykryje karty oraz skonfiguruje X.Orga. Automatycznie zostaną również zamontowane partycje NTFS. Compiz zostanie uruchomiony automatycznie, jeśli system wykryje obsługę 3D w karcie graficznej. 
+
+Matthew Dawkins ogłosił wydanie systemu <phrase id="65608">Unity Linux 2010 Beta 2</phrase> . Dystrybucja ta działa w oparciu o system <phrase id="65610">Mandriva Linux</phrase>. Jest minimalistyczną dystrybucją wraz z <phrase id="67788">Openboxem</phrase> oraz menadżerem pakietów Smart. System wspiera obsługą Aufs oraz GVFS. 
+
+<phrase id="65616">Stefan Lippers-<phrase id="65619">Hollmann</phrase></phrase> ogłosił wydanie systemu <phrase id="65620">sidux 2009-04</phrase> , którego nazwa kodowa to <phrase id="65621">Moros</phrase>. System ten bazuje na Debianie i działa pod kontrolą jądra <phrase id="65626">2.6.32.</phrase> System działa jako LiveCD z możliwością instalacji na dysku twardym. Posiada pełne wsparcie dla kart graficznych ATI Radeon oraz Intel. W systemie znajdziemy również program GRUB 2. 
+</document>

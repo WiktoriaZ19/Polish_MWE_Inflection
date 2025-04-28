@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101892">
+Oblicz, która jest godzina czasu słonecznego w <phrase id="73913">Nowym Jorku</phrase>, jeżeli w <phrase id="73914">Amsterdamie</phrase> jest 14.00 czasu słonecznego? 
+
+<phrase id="79714">Amsterdam</phrase> - 5º E /dł. geogr. wschodniej/ <phrase id="73915">Nowy Jork</phrase> - 74º W /dł. geogr. zachodniej/ 
+
+74º + 5º = 79º /stopnie dodajemy, ponieważ miasta leżą na dwóch różnych półkulach/ 79º x 4 min.= 316 minut = 5 godzin 16 min./to jest różnica czasu słonecznego/ 
+
+14.00 – 5 godzin i 16 minut = 8.44 / na zachód odejmujemy różnicę czasu/ 
+
+Odpowiedź: Jeżeli w <phrase id="73916">Amsterdamie</phrase> jest godzina 14.00 czasu miejscowego, to w <phrase id="73917">Nowym Jorku</phrase> jest dopiero 8.44. W granicach każdej <phrase id="467792">strefy czasowej</phrase> /obejmującej 15º długości geograficznej/ jest ten sam czas strefowy. 
+
+Jest to czas miejscowy <phrase id="467794">południka środkowego</phrase> strefy. Na przykład południk 0º jest południkiem środkowym strefy czasu uniwersalnego. Strefa czasu uniwersalnego rozciąga się pomiędzy południkiem 7º 30' W a 7º 30'E. Czas w pozostałych strefach określa się w odniesieniu do czasu uniwersalnego. W kierunku wschodnim w każdej kolejnej strefie czasowej dodaje się jedną godzinę /np. U + 1 h/ , a w kierunku zachodnim – odejmuje się 1 godzinę /np. U – 1h/. Południki środkowe stref mają kolejno długość geograficzną 0º , 15º E, 30º E, 45º E, 60º E, 75º E, 90º E, 105º E, 120º E, 135º E, 150º E, 165º E, 180º i 15º W, 30º W, 45º W, 60º W, 75º W, 90º W, 105º W, 120º W, 135º W, 150º W, 165º W. 
+
+Która jest godzina czasu strefowego w <phrase id="73919">Pekinie</phrase>, jeżeli w <phrase id="73920">Londynie</phrase> jest 12.00 czasu strefowego? 
+
+Londyn – 12.00 
+
+Pekin - 116º E 
+
+Obliczamy czas strefowy w Pekinie: 
+
+U + 8h = 12.00 + 8h = 20.00 /<phrase id="79715">Pekin</phrase> położony jest w strefie czasowej, w której południkiem środkowym jest południk 120º E, w kierunku wschodnim dodajemy różnicę czasu/ 
+
+Odpowiedź: W <phrase id="73924">Pekinie</phrase> jest godzina 20.00 czasu strefowego, wtedy gdy w <phrase id="73925">Londynie</phrase> jest 12.00. 1.Oblicz, która jest godzina czasu miejscowego w Los Angeles jeżeli w <phrase id="73927">Warszawie</phrase> jest godzina 13.00 czasu miejscowego. 
+
+2. Oblicz, która jest godzina czasu miejscowego w <phrase id="73928">Sydney</phrase>, jeżeli w Moskwie jest godzina 22.00 czasu miejscowego. 
+
+3. Oblicz, która jest godzina czasu strefowego w Hawanie, jeżeli w Londynie jest godzina 15.00 czasu 
+</document>

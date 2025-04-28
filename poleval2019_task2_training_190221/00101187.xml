@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101187">
+<phrase id="352483">System <phrase id="63230">ZEFIR</phrase></phrase> – jest <phrase id="352484">systemem informatycznym</phrase>, który kompleksowo obsługuje sprawy związane z finansami i rachunkowością <phrase id="352485"><phrase id="310878">Polskiej</phrase> Służby Celnej</phrase>. 
+
+Funkcje systemu 
+
+System realizuje pełny zakres operacji finansowych wykonywanych w administracji celnej (tj. obsługę rejestracji, poboru, rozliczania, oraz księgowania należności celnych i podatkowych). Dane w nim zawarte umożliwiają wykonywanie raportów, które są wykorzystywane m.in. dla potrzeb statystyki, oraz kontroli sprawowanej przez administrację celną. System umożliwia również tworzenie różnorodnych raportów, uzależnionych od bieżących potrzeb. Dzięki swojej konstrukcji, <phrase id="63232">ZEFIR</phrase> jest systemem w pełni sparametryzowanym - w zależności od zmian w przepisach lub konieczności uzyskania dodatkowych informacji analitycznych, możliwe jest bieżące wprowadzanie zdefiniowanych wysokości stawek odsetek, nowej Księgi Głównej, planu kont, wzorców księgowań, itd. <phrase id="63233">ZEFIR</phrase> jest powiązany z innymi systemami dedykowanymi <phrase id="63234">Służbie Celnej</phrase> (m. in. z systemem zgłoszeń celnych - <phrase id="63235">CELINA</phrase>, czy <phrase id="63236">NCTS</phrase> - systemem operacji tranzytowych). Uzyskał akceptację, jako działający zgodnie z wymaganiami <phrase id="63237">UE</phrase>. 
+
+Korzyści z wdrożenia systemu 
+
+Zwiększenie skuteczności rozliczeń i windykacji należności <phrase id="63238">Skarbu Państwa</phrase>. 
+
+Szybki dostęp do danych finansowych, oraz historii dokumentów. 
+
+Zwiększenie kontroli i nadzoru służbowego nad całokształtem spraw finansowo-księgowych. 
+
+Ujednolicenie planu kont i wzorców księgowań oraz procesów finansowo-księgowych we wszystkich jednostkach administracji celnej. 
+
+Prowadzenie elektronicznej wymiany danych z <phrase id="63239">Narodowym Bankiem <phrase id="310879">Polskim</phrase></phrase>. 
+
+Realizowanie importu i eksportu danych z i do systemu. 
+
+Połączenie z systemem <phrase id="63240">CELINA</phrase> - możliwe jest automatyczne przekazywanie do <phrase id="63241">ZEFIRA</phrase> danych ze zgłoszeń celnych, oraz powiązanie z tym systemem mechanizmu zwalniania towarów działającego w ramach <phrase id="63242">CELINY</phrase>. 
+
+Podsystemy systemu <phrase id="63243">ZEFIR</phrase> 
+
+System OSOZ (<phrase id="63246">Ogólnopolski System Obsługi Zabezpieczeń i Pozwoleń</phrase>) jest centralnym podsystemem Systemu <phrase id="63245">ZEFIR</phrase> wykorzystującym standard <phrase id="63558">XML</phrase> do komunikacji z podmiotami gospodarczymi i Systemami Celnymi (np. <phrase id="63248">NCTS</phrase>, <phrase id="63249">CELINA</phrase>). Celem Systemu jest zapewnienie systemom <phrase id="63250">Celina</phrase>, NCTS, ZEFIR i innym elektronicznych usług przez nie wymaganych. Zakres tych usług dotyczy obsługi zabezpieczeń wykorzystywanych podczas rejestracji zgłoszeń celnych i deklaracji podatkowych. 
+
+Mechanizm INFOP - to nowa funkcjonalność Systemu ZEFIR, pozwalająca na przesyłanie do kontrahentów pod zadeklarowany przez nich adres e-mail informacji o sposobie rozliczenia dokonanej wpłaty, oraz cyklicznych informacji o stanie zadłużenia. 
+</document>

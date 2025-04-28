@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103885">
+Na wydruku 5.3 znajduje się postać reguły odcinania zapisanej zgodnie z konwencją używaną w <phrase id="484523">systemie Aleph</phrase>. Predykaty member i has_pieces są predykatami pomocniczymi wyrażonymi za pomocą reguł (zob. wydruk 5.4). <phrase id="484524">Zmienna Body</phrase> reprezentuje regułę w postaci łańcucha znaków składającego się z predykatów oddzielonych przecinkiem. Reguła has_pieces dzieli regułę Body na tablicę predykatów. Reguła member określa element tablicy LBody, tj. zmienna P jest pewnym predykatem z <phrase id="484526">reguły Body</phrase>. 
+
+Ze względu na dużą przestrzeń możliwych rozwiązań przy uwzględnieniu wszystkich możliwych predykatów zostało zdefiniowanych kilka modeli predykatów, w których zbiór predykatów został ograniczony do wybranych elementów. 
+
+Głównym wyznacznikiem występowania relacji semantycznej w obrębie zdania są pewne słowa kluczowe i frazy. Celem tego eksperymentu było sprawdzenie, w jakim stopniu zestaw słów kluczowych oderwany od pozycji w zdaniu i względem jednostek może być wyznacznikiem zaistnienia relacji. Pod uwagę zostały wzięte formy bazowe i hiperonimy form bazowych określonych klas gramatycznych (rzeczowniki, czasowniki i przymiotniki). Parametry generowania reguł zostały tak dobrane, aby utworzone reguły mogły definiować do trzech słów kluczowych. Zwiększenie dopuszczalnej liczby słów kluczowych powodowało znaczący wzrost przestrzeni przeszukiwania ze względu na wykładniczą liczbę kombinacji słów występujących w zdaniu. 
+
+Dla modelu słów kluczowych zostało wygenerowanych łącznie ponad 300 reguł (153 dla relacji położenie, 71 dla relacji przynależność, 27 dla relacji autorstwo, 26 dla relacji kompozycja, 20 dla relacji pochodzenie, 15 dla relacji sąsiedztwo, 6 dla relacji narodowość i 0 dla relacji tożsamość). Na wydruku 5.5 zostały przedstawione przykładowe reguły. 
+
+Dla relacji tożsamość nie została wygenerowana żadna reguła. Prawdopodobnie jest to spowodowane tym, że większość wystąpień tej relacji dotyczy alternatywnych nazw, które podawane są w okrągłych nawiasach tuż za nazwą właściwą. Jedynym wyznacznikiem tej relacji jest wystąpienie nawiasów oraz porządek liniowy elementów. Samo wystąpienie nawiasów jest zbyt słabą przesłanką, ponieważ nawiasy wykorzystywane są w wielu innych celach (np. wskazanie przynależności jednego elementu do drugiego). 
+
+Dla pozostałych kategorii relacji główną przyczyną wielu nieprawidłowo rozpoznanych relacji (a tym samym niskiej precyzji) są zdania, w których występuje para jednostek połączonych relacją oraz dodatkowe anotacje niepołączone tą relacją. Ponieważ <phrase id="484528">słowa kluczowe</phrase> identyfikują relacje na poziomie zdań, nie jest możliwe poprawne wskazanie jednostek połączonych relacją i w efekcie generowane są nadmiarowe połączenia. 
+</document>

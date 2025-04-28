@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101479">
+Dalmierz 
+
+Dalmierz (odległościomierz) - przyrząd służący do pomiaru odległości bez potrzeby jej przebywania. 
+
+Działanie dalmierza optycznego polega na obserwacji przedmiotu za pomocą dwu prawie równoległych obiektywów, umieszczonych na tzw. bazie i pomiarze kąta paralaksy osi optycznych obu obiektywów. 
+
+Kąt paralaksy ϕ, w przybliżeniu małych kątów (tj. gdy sin(ϕ) ≈ ϕ, gdzie ϕ wyrażone w radianach), jest odwrotnie proporcjonalny do odległości do celu. Istnieją <phrase id="427799">dalmierze optyczne koincydencyjne</phrase> (jednookularowe) i stereoskopowe (dwuokularowe). 
+
+Ze względu na zastosowania wyróżnia się dalmierze optyczne topograficzne i artyleryjskie (dokładniejsze). W dalmierzowych aparatach fotograficznych stosuje się uproszczone dalmierze optyczne. 
+
+Dalmierze elektromagnetyczne 
+
+<phrase id="427801">Dalmierz elektromagnetyczny</phrase> - pomiar odległości przeprowadza się na podstawie pomiaru czasu, w jakim powraca sygnał radiowy wyemitowany w kierunku przedmiotu (<phrase id="427802">dalmierz impulsowy</phrase>), lub na podstawie różnicy faz fal elektromagnetycznych: emitowanej i rejestrowanej (<phrase id="427803">dalmierz o fali ciągłej</phrase>). 
+
+Dalmierze elektromagnetyczne wykorzystywane są w radiolokacji, radiogeodezji oraz radionawigacji. Istnieje wiele rozwiązań konstrukcyjnych i systemów dalmierzy, np. dalmierz świetlny, dalmierze interferencyjne: ruchomy interferometr radiowy (radiolag), sonda fazowa, dalmierze o nieruchomym obrazie interferencyjnym, dalmierze cyfrowe. 
+
+Dalmierze elektromagnetyczne dzielą się na: 
+
+dalmierze elektrooptyczne, 
+
+dalmierze mikrofalowe (radiowe) 
+
+W pomiarach liniowych w geodezyjnych osnowach szczegółowych mierzone są długości rzędu kilkuset metrów do kilku kilometrów, więc do tego celu wykorzystywane są dalmierze elektrooptyczne, które dzielą się na: 
+
+fazowe, 
+
+impulsowe (za ich pomocą można wykonywać pomiary bez użycia reflektorów zwrotnych, szczególnie w pomiarach szczegółów sytuacyjnych, charakteryzują się jednak mniejszą dokładnością). 
+</document>

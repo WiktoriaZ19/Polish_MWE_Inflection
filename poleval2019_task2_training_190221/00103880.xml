@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103880">
+<phrase id="484478">Korpus KPWr</phrase> (Broda et al., 2012) jest zbiorem ponad 1200 fragmentów tekstów różnego gatunku, do których należą: blogi, stenogramy, dialogi, <phrase id="484482">proza współczesna</phrase>, <phrase id="484483">proza dawna</phrase>, <phrase id="484484">artykuły prasowe</phrase>, <phrase id="484485">artykuły popularno-naukowe</phrase>, Wikipedia, <phrase id="484487">teksty urzędowe</phrase> i techniczne oraz z różnych dziedzin, np. nauki, prawa, religii. Każdy fragment tekstu jest ciągłym fragmentem oryginalnego dokumentu składającym się z nie więcej niż 300 wyrazów. 
+
+W korpusie KPWr 732 dokumenty zostały ręcznie oznaczone nazwami własnymi i relacjami między tymi nazwami (zgodnie ze schematami przedstawionymi w punktach 3.1 i 3.2). Korpus został podzielony w sposób losowy na trzy części — <phrase id="484490">część ucząca</phrase> (57% całości), <phrase id="484489">część pomocnicza</phrase> (18%) i <phrase id="484488">część testowa</phrase> (25%). Część ucząca była podstawowym materiałem do uczenia, część pomocnicza została użyta do określania parametrów i konfiguracji uczenia, a część testowa została użyta do porównywania ostatecznych wyników dla różnych podejść. Szczegółowe statystyki dla całego korpusu i poszczególnych nazw własnych znajdują się w tabeli 3.2 (nazwy własne) i tabeli 3.1 (relacje między nazwami własnymi). 
+
+Korpus CSER składa się z 1215 raportów giełdowych pochodzących z portalu <phrase id="484491">GPWInfoStrefa 7</phrase>. Na portalu GPWInfoStrefa publikowane są oficjalne raporty roczne i okresowe spółek giełdowych. Zebrane raporty pochodzą z 2004 roku i zostały opracowane przez 185 różnych spółek. 
+
+Korpus został oznaczony jednostkami identyfikacyjnymi i został użyty do trenowania i walidacji modelu jednostek identyfikacyjnych. Szczegółowa liczba jednostek identyfikacyjnych została przedstawiona w tabeli 3.2. 
+
+Korpus CPR składa się z 12 zeznań policyjnych złożonych przez oskarżonych i świadków dostarczonych przez lokalny oddział policji. Dokumenty zostały zebrane w ramach projektu poświęconego automatycznej anonimizacji (Graliński et al., 2009). Ponieważ oryginalne dokumenty zawierały poufne dane, ich zawartość została ręcznie zmieniona przez funkcjonariuszy policji. Wszystkie dane osobowe i inne dane mogą służyć identyfikacji opisanych zdarzeń i osób zostały zmienione na fikcyjne. 
+
+Korpus został użyty do oceny podstawowego modelu rozpoznawania jednostek identyfikacyjnych. Szczegółowa liczba jednostek identyfikacyjnych została przedstawiona w tabeli 3.2. 
+</document>

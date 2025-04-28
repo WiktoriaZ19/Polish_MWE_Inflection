@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103883">
+W kolejnym kroku została podjęta próba doboru parametrów <phrase id="484510">modelu CRF</phrase>, w celu zwiększenia precyzji i kompletności rozpoznawania jednostek identyfikacyjnych. Usprawnienie uwzględniało modyfikację istniejących cech, konstrukcję nowych cech, selekcję cech, redukcję cech oraz zastosowanie przetwarzania końcowego (Marcińczuk i Janicki, 2012). W kolejnych sekcjach zostały opisane poszczególne usprawnienia. 
+
+Częstym problemem przy rozpoznawaniu długich nazw jest błędny ich podział na kilka krótszych. Na przykład Stany Zjednoczone Ameryki Północnej były błędnie rozpoznawane jako dwie oddzielne nazwy, tj. Stany Zjednoczone i Ameryki Północnej. Wynikało to ze sposobu kodowania cech słownikowych. 
+
+W bazowym modelu <phrase id="484514">cechy słownikowe</phrase> uwzględniały wszystkie nazwy własne, w tym zagnieżdżenia tej samej kategorii. W wyniku tego wszystkie tokeny rozpoczynające sekwencję znalezioną w słowniku były znakowane <phrase id="484516">symbolem B 15</phrase>). To powodowało, że sekwencja Stany Zjednoczone Ameryki Północnej była oznaczona jako B I B I, ponieważ w słowniku istniały 3 formy: Stany Zjednoczone Ameryki Północnej, Stany Zjednoczone i Ameryki Północnej. 
+
+Przy takim kodowaniu sekwencja B I B I była niejednoznaczna w interpretacji, ponieważ mogła oznaczać dwie następujące po sobie nazwy lub jedną długą składającą się z 4 tokenów. Aby uniknąć tej niejednoznaczności, sposób kodowania cech słownikowych został zmieniony w taki sposób, aby były znakowane wyłącznie najdłuższe nazwy. Po tej zmianie wspomniana nazwa własna została oznaczona jako B I I I. 
+
+Po zastosowaniu tej modyfikacji problem podziału długich nazw własnych na krótsze został rozwiązany. Pozwoliło to na poprawienie wyniku z 94,53% średniej harmonicznej do 95,44%. 
+</document>

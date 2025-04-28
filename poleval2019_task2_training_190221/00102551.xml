@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102551">
+<phrase id="468244">Metoda pomiarowa</phrase> jest to sposób porównywania <phrase id="468245">wielkości mierzonej</phrase> z <phrase id="468246">wielkością wzorcową</phrase>. Z tego określenia wynika, że metoda jest niezależna od rodzaju wielkości mierzonej. Zjawiska fizyczne wykorzystywane w przyrządzie opisuje zasada pomiarowa. Nazwy metod pomiarowych i sposoby ich przedstawienia spotykane w literaturze często różnią się. Określenie właściwości metod pomiarowych ułatwia poznanie właściwości przyrządów. Jeśli wiemy, że w danym przyrządzie zastosowano określoną metodę pomiarową, łatwiej jest zidentyfikować części tego przyrządu i opisać jego działanie wg. schematu właściwego dla tej metody. 
+
+Metoda pośrednia 
+
+Metoda pomiaru jest pośrednia, jeśli wartość wielkości mierzonej wyznaczamy na podstawie bezpośredniego pomiaru innych wielkości związanych z wielkością mierzoną znaną zależnością. 
+
+Aby zmierzyć wielkość zdefiniowaną równaniem, mierzymy bezpośrednio wielkości, a wielkość mierzoną wyznaczamy z równania definicyjnego. 
+
+Przykład 
+
+Długość ciała będącego w ruchu możemy zdefiniować jako iloczyn prędkości i czasu potrzebnego na przebycie drogi równej. Równanie definicyjne pomiaru pośredniego ma postać: 
+
+przy czym prędkość oraz czas mierzy się bezpośrednio. Czas jest przedziałem czasu od chwili pojawienia się przedmiotu na celowniku do chwili , gdy w celowniku pojawi się końcowa krawędź przedmiotu. Wiadomo przy tym, że przedmiot porusza się ze stałą prędkością. 
+
+Jest to metoda pośrednia, w której równanie definicyjne metody pośredniej jest równaniem definicyjnym tej wielkości. Na przykład.: 
+
+pole prostokąta zdefiniowane jako iloczyn długości boków, ciśnienie płynu określone jako iloraz siły działającej na powierzchnię. 
+
+Metodą bezwzględną bezpośrednio mierzymy te wielkości, za pomocą których jest zdefiniowana wielkość mierzona. Do definicji najczęściej stosujemy wielkości podstawowe odtwarzalne najdokładniej, dzięki czemu dokładność pomiaru metodą bezwzględną jest duża. 
+
+Wilgotność bezwzględna gazu jest równa masie pary wodnej zawartej w gazu wilgotnego. Jest to definicja wilgotności. Z gazu wilgotnego można wydzielić parę wodną przez ochłodzenie do odpowiednio niskiej temperatury lub przepuszczenie przez naczynie z odpowiednim absorbentem i zważyć. Objętość gazu mierzy się odpowiednim gazomierzem. 
+
+Metoda jest bezpośrednia, jeśli wielkość mierzona i wielkość wzorcowa są tego samego rodzaju, a wynik pomiaru jest podany w wartościach wielkości mierzonej. 
+
+Wyróżniamy metody bezpośrednie: 
+
+Przyjmujemy, że przyrząd pomiarowy w chwili pomiaru reprezentuje zbiór wzorcowy, mimo że nie jest on wzorcem i nie zawiera wzorców. Zbiór wzorcowy jest uporządkowany na osi liczbowej w postaci: jako zbiór dyskretny w postaci pola odczytowego, składającego się ze skończonej liczby elementów. np. N= 10000, gdy pole odczytowe ma 4 cyfry od 0000 do 9999. 
+</document>

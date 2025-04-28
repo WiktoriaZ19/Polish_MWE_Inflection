@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101392">
+Potok (<phrase id="425877">funkcja powłoki</phrase>) 
+
+Potok de facto pozwala na to, aby wyjście jednego programu było wejściem dla innego. Jego operatorem jest pionowa kreska (Shift+""). Definiuje się je za pomocą znaku | . Jest to intuicyjnie oczywiste. 
+
+| przekierowanie wyniku jednego programu do innego; 
+
+&gt; przekierowanie wyniku jednego programu do <phrase id="425871">pliku wyzerowanego</phrase>; 
+
+&gt;&gt; przekierowanie wyniku jednego programu do pliku z dopisaniem; 
+
+oraz podanie do programu argumentu z pliku. 
+
+Operacja potoku odbiera wynik polecenia znajdującego się przed operatorem potoku i wysyła je jako dane wejściowe do polecenia umieszczonego za <phrase id="425872">operatorem potoku</phrase>. 
+
+Rodzaje potoków 
+
+Pod pojęciem rodzaje potoków rozumiem ogół procesów dzielący się na: 
+
+<phrase id="425873">potoki nienazwane</phrase>, 
+
+potoki nazwane. 
+
+Różnica pomiędzy potokiem nienazwanym a nazwanym polega na tym, że potok nazwany ma dowiązanie w systemie plików i może być identyfikowany przez nazwę. Potok nienazwany nie posiada dowiązania i istnieje tak długo, jak długo jest otwarty. Po zamknięciu wszystkich deskryptorów związanych z potokiem nienazwanym potok przestaje istnieć. 
+
+Potoki nienazwane 
+
+Potoki nienazwane nazywane także łączem komunikacyjnym. Są używane w kontekście powiązanych ze sobą procesów. Komunikacja ta polega na tym, że jeden proces zapisuje dane podobnie jak do pliku, a drugi odczytuje tak jakby czytał z pliku. Różnica pomiędzy tradycyjnym odczytem i zapisem jest taka, że jeżeli łącze jest pełne to proces zapisujący zostaje na czas zwolnienia łącza uśpiony i analogicznie jeżeli łącze jest puste to proces czytający zostaje uśpiony. Informacja zapisana do potoku jest odczytywana w kolejności zapisu, po odczytaniu informacje są kasowane i nie jest możliwe ponowne ich odczytanie. Potok możemy utworzyć na różnym poziomie i przy wykorzystaniu różnych mechanizmów. Potok może być utworzony bezpośrednio z wiersza poleceń. Potok najłatwiej jest utworzyć z poziomu programu. Należy użyć następujących funkcji pipe, popen bądź pclose. 
+
+Potoki nazwane 
+
+Potoki nazwane nazywamy także kolejkami <phrase id="245460">FIFO</phrase>. Są plikami specjalnego rodzaju, które istnieją pod podaną nazwą w systemie plików. Kolejki <phrase id="245461">FIFO</phrase> zachowują się podobnie jak potoki nienazwane utworzone za pomocą funkcji pipe. Jeden z procesów otwiera plik FIFO do zapisu, zaś drugi do odczytu, po czym dane mogą przepływać przez kolejkę jak przez zwykły potok nienazwany. 
+
+Przykłady użycia 
+
+Przykład 1 
+
+Przejdźmy do katalogu /usr/bin, 
+
+cd /usr/bin 
+
+ponieważ znajduje się tam bardzo duża liczba plików. 
+</document>

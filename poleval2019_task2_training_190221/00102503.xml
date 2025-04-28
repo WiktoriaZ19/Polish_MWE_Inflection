@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102503">
+O czym jeszcze warto wiedzieć 
+
+Dobierając zębatki do modelu, należy zwrócić uwagę na kilka dodatkowych aspektów. 
+
+Moduł 
+
+Moduł jest podstawową wielkością, służącą do określania wymiarów zębów i <phrase id="469420">kół zębatych</phrase>. Aby dwie zębatki współpracowały ze sobą poprawnie, powinny mieć ten sam moduł. 
+
+W <phrase id="291401">USA</phrase> zamiast pojęcia modułu stosuje się analogiczne pojęcie diametrical pitch. Dlatego zębatki przeznaczone na rynek amerykański oznacza sie podając ich pitch i po nim literę P. W terenowych modelach elektrycznych najczęsciej spotykane są <phrase id="469423">zebatki 48P</phrase>, w modelach spalinowych stosuje się zebatki 32P, a w <phrase id="469424">elektrycznych modelach torowych</phrase> można spotkać <phrase id="469425">zębatki 64P</phrase>. 
+
+Moduł wyraża się w milimetrach i definiuje się jako: 
+
+m := średnica podziałowa w mm / liczba zębów 
+
+Diametrical pitch definiuje sie jako: 
+
+p := liczba zębów / średnica podziałowa w calach 
+
+Znając moduł zębatki możemy wyliczyć jej diamertical pitch 
+
+p = 25.4 / m 
+
+i identycznie w druga stronę 
+
+m = 25.4 / p 
+
+Kupując zębatki do modelu trzeba być pewnym, że kupuje się zębatki o właściwym module. 
+
+Ograniczenie na rozmiar maksymalny 
+
+Konstrukcja modelu może ograniczać maksymalny rozmiar stosowanych zębatek, szczególnie chodzi tu o zębatkę odbierająca. Innymi słowy, zbyt duża zębatka może się zwyczajnie nie zmieścić. Przykładowo dla <phrase id="291402">Rutslera</phrase> największą zębatką odbierającą, która zmieści się do wnętrza oryginalnej osłony, jest zębatka o 90 zębach. 
+
+Spośród wielu producentów zębatek dla elektrycznych <phrase id="469427">modeli RC</phrase> na pewno warto polecić firmy <phrase id="291406">Kimbrough</phrase> , <phrase id="469429">Robinson Racing</phrase> a także <phrase id="291404">HPI</phrase> i <phrase id="291403">Corally</phrase> 
+</document>

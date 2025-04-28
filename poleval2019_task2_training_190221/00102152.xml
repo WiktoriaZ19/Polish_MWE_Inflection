@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102152">
+<phrase id="468103">Klasa przechowująca</phrase> reprezentuje dane, które muszą być przechowywane przez dłuższy czas (przykładem może być zawartość tablic baz danych oraz plików). 
+
+Zazwyczaj związana jest z wieloma przypadkami użycia. Nie może samodzielnie inicjować interakcji. Klasa przechowująca może być implementowana na etapie projektowania zarówno w postaci samodzielnej klasy, jak i atrybutów poszczególnych klas. 
+</document>

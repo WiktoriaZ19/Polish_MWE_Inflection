@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103815">
+Koparkę charakteryzuje <phrase id="484239">nadwozie typu C</phrase>. Oznacza to, ze wysięgnik przeciwwagi wraz z wieżą nadwozia stanowi jeden element konstrukcyjny i dopiero poprzez niego jest połączony z obrotnicą. Taka konstrukcja jest bardziej odporna na dynamiczne oddziaływanie <phrase id="484242">obciążeń eksploatacyjnych</phrase> (większa sztywność). 
+
+Bywa jednak, że charakter jej odpowiedzi na obciążenia jest bardziej złozony, niż w przypadku koparek o nadwoziu tradycyjnym. 
+
+W wyniku przeprowadzenia skalowania dynamicznego znaną siłą F wyznaczono częstotliwości własne fw ustroju, które wynoszą: fw1 = 0; 4 Hz, fw2 = 0; 63 Hz, fw3 = 1; 37 Hz. 
+
+Biorąc pod uwagę częstotliwość siły wymuszającej, którą jest częstotliwość wysypów równa 1,7 Hz, najbliższa jej częstotliwość własna (fw3 = 1,37 Hz) różni się od niej o 0,37 Hz. Daje to 2,7 sekundy, co przekłada się na przejście (wysyp) czterech czerpaków. Z tego względu można wykluczyć rezonansowy charakter drgań konstrukcji, przynajmniej w warunkach względnie spokojnej pracy koparki. Potwierdza to uśrednione widmo drgań eksploatacyjnych, w którym prążek przy częstotliwości 1,7 Hz zdecydowanie nie należy do dominujących. Natomiast najistotniejszą częstotliwością wydaje się być podharmoniczna częstotliwości wymuszenia równa 0,17 Hz. 
+
+Pozostałe częstotliwości w widmie drgań własnych: 0,4 Hz i 0,63 Hz zbliżone są do częstotliwości eksploatacyjnych 0,38 Hz, 0,43 Hz i 0,59 Hz. Występowanie częstotliwości modalnej przy 0,4 Hz może powodować pewną rozmytość w otoczeniu tej wartości w widmie eksploatacyjnym. Jednak brak wyraźnego prążka dowodzi braku istnienia stałych drgań rezonansowych podczas pracy koparki. Natomiast prążek o częstotliwości 0,59 Hz charakteryzuje się relatywnie niewielką wysokością, co również świadczy o braku wzmocnienia tej składowej z powodu bliskości częstotliwości własnej. 
+
+Przy realizacji niniejszej pracy wykorzystano przebiegi drgań eksploatacyjnych wysięgnika koła czerpakowego zarejestrowane podczas około 390 godzin ciągłej pracy koparki SRs-1800. 
+</document>

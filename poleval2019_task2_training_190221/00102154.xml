@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102154">
+<phrase id="468110">Paradygmat obiektowy</phrase> opiera się na czterech zasadach: 
+
+abstrahowaniu - odfiltrowywanie atrybutów i operacji klasy nieistotnych z punktu widzenia aktualnie realizowanego zadania - rozwiązywanego problemu. W wyniku abstrahowania w strukturze klasy uwzględniamy zatem jedynie istotne składniki (atrybuty i operacje). hermetyzacji - obiekt widziany jest jako czarna skrzynka połączona z jego otoczenie wyłącznie poprzez interfejs(pilot, klawiatura). Ujawnia się otoczeniu tylko te informacje o jego atrybutach, które są niezbędne do efektywnego odwołania się do obiektu w systemie za pomocą komunikatów, generalizacji - umożliwia stworzenie hierarchii dziedziczenia, co oznacza, że obiekty podklasy dziedziczą cechy obiektów nadklasy, Potomek dziedziczy strukturę i zachowanie przodka, a ponad to ma cechy własne. polimorfizmie - oznacza, że ta sama nazwa operacji w różnych klasach może oznaczać różne działania. 
+</document>

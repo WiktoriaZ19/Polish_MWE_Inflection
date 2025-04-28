@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103850">
+<phrase id="484577">Modelowanie analityczne</phrase> to technika (inżynieria) identyfikacji jak projektowany <phrase id="484579">system informatyczny</phrase> ma działać aby spełnić oczekiwania określone w wymaganiach. Diagramy modelu analitycznego wspomagają dyscyplinę analizy i projektowania. Umożliwiają przejście od diagramów przypadków użycia oraz ich scenariuszy do diagramów klas oraz <phrase id="484581">diagramów interakcji</phrase> na poziomie konceptualnym i implementacyjnym. Stanowią zatem element pośredni i opcjonalny w procesie tworzenia systemu. Pozwalają zminimalizować lukę semantyczną pomiędzy zrozumiałą dla większości odbiorców terminologią przypadków użycia a technicznymi aspektami projektu systemu informatycznego. 
+</document>

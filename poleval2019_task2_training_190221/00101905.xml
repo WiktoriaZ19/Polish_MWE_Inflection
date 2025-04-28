@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101905">
+Wyniki etapu określania wymagań na <phrase id="467845">system informatyczny</phrase> 
+
+Wynikiem fazy określania wymagań na system informatyczny jest dokument zawierający następujące elementy: 
+
+Wprowadzenie – cele, zakres i kontekst systemu; Opis <phrase id="467846">wymagań funkcjonalnych</phrase>; Opis <phrase id="467847">wymagań niefunkcjonalnych</phrase>; Opis ewolucji systemu; <phrase id="467848">Model logiczny systemu</phrase> - opracowany przy użyciu, np. <phrase id="80946">UML</phrase> Słownik terminów niejednoznacznych dla udziałowców przedsięwzięcia projektowego. 
+
+Dokument „<phrase id="310283">Wymagania na system informatyczny</phrase>” stanowi podstawę do realizacji dalszych prac projektowych nad systemem, w tym do opracowania testów akceptacyjnych systemu. 
+</document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101844">
+Pisząc kilka dni temu o nowej wersji <phrase id="76038">Firefoksa</phrase> skupiłem się na kwestii otwartości, pomijając funkcjonalności atrakcje przemawiające za korzystaniem z tej przeglądarki. Zmieniłem zdanie - jedna z nich zasługuje na uwagę: 
+
+Do najnowszej polskiej edycji tej przeglądarki włączono dodatek pozwalający na wyszukiwanie w <phrase id="76039">Federacji Bibliotek Cyfrowych</phrase> (<phrase id="76040">FBC</phrase>, <phrase id="76041">http://fbc.pionier.net.pl/</phrase>) równie łatwo, jak w przypadku dostępnych w poprzednich wersjach <phrase id="76044">Firefoxa</phrase> wyszukiwarkach <phrase id="76042">Google</phrase> czy <phrase id="76043">Wikipedia</phrase>. 
+
+Oznacza to, że w polu wyszukiwania w prawym górnym rogu przeszukiwarki pojawia się standardowo, jako opcja, przeszukiwanie zbiorów polskich bibliotek cyfrowych. Myślę, że to duża szansa dla popularyzacji tych zasobów. Gratuluję <phrase id="309023">Federacji</phrase>, że umieściła interfejs swojej przeszukiwarki w tak kluczowym miejscu - a ekipie polskiej wersji <phrase id="76045">Firefoksa</phrase> mądrej decyzji. 
+
+Dla wyjaśnienia - <phrase id="309024">Federacja</phrase> nie jest jakimś tworem instytucjonalnym, tylko usługą pozwalającą przeszukiwać poprzez jeden interfejs połączone zbiory polskich bibliotek cyfrowych. 
+
+Funkcje te są realizowane w oparciu o otwarte standardy wymiany informacji, takie jak <phrase id="73501">OAI-PMH</phrase> czy OpenSearch. 
+</document>

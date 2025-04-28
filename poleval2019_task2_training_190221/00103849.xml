@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103849">
+Jedną z podstawowych funkcji potrzebnych do efektywnego programowania, nie tylko w Javie ale w dowolnym języku, jest kopiowanie zmiennych. W przypadku Javy jest to proces trochę skomplikowany, szczególnie dla typów złożonych jakimi są obiekty. Ale od początku. Zajmijmy się najpierw typami prostymi. Kopiowanie danych typów prostych 
+
+Dane proste przechowywane są w pamięci w sposób bezpośredni, co znaczy, że w danej komórce(danych komórkach) pamięci odpowiadających za konkretną zmienną(bądź stałą) przechowywana jest jej wartość. Z kopiowaniem takich obiektów nie ma najmniejszego problemu i robimy to przez zwykłe przypisanie. 
+
+Co więcej, gdy zmienimy wartość jednej zmiennej, druga pozostaje niezmieniona. 
+
+Zobaczmy jak to jest z obiektami. Prosty program przypisujący jeden obiekt do drugiego: 
+
+Wygląda na to, że obiekt sie skopiował. I dokładnie tak się stało. Ale obiekty są przechowywane w pamięci jako wskaźnik do wartości i właśnie ten wskaźnik został skopiowany. Co w takim razie jak zmienimy wartość jednego z obiektów? 
+
+mamy: gazela i gazela 
+
+Wartości drugiego obiektu też się zmieniają. Do kopiowania a raczej klonowania warości obiektów służy chroniona <phrase id="468319">metoda clone</phrase>() zawarta w Java.lang.Object, która zwraca nowy obiekt z wartościami klonowanego. Metoda clone() dodatkowo sprawdza, czy klasa implementuje interfejs (modyfikator nakładany na klasę celem wymuszenia implementacji konkretnych metod) Cloneable . W przeciwnym wypadku wyrzuca wyjątek CloneNotSupportedException , ktory trzeba wyłapać. Klonowanie obiektów obrazuje kolejny program: 
+</document>

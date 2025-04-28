@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102389">
+<phrase id="484955">Zasilacz ATX</phrase> ma interesującą cechę: przy dużym obciążeniu <phrase id="484968">wyjścia 12V</phrase> następuje spadek napięcia na tym wyjściu poniżej 12V. W przerabianym przez nas egzemplarzu, przy obciążeniu wyjścia 12V opornikiem 2Ω, czyli prądem 12V / 2Ω = 6A , napięcie spadło do 11.4V. 
+
+Można zapobiec temu spadkowi napięcia obciążając równocześnie wyjście 5V. W przerabianym zasilaczu obciążenie wyjścia 12V <phrase id="484972">opornikiem 2Ω</phrase> i równocześnie obciążenie <phrase id="484974">wyjścia 5V</phrase> opornikiem 3.5Ω spowodowało, że napięcie spadło już tylko do 11.8V. 
+
+Zapobieganie spadkowi napięcia na 12V poprzez obciążenie wyjścia 5V warto wykonać tylko w wypadku, gdy jest to rzeczywiście potrzebne. Aby się o tym przekonać należy sprawdzić w instrukcji ładowarki ile wynosi maksymalny pobór prądu i jakie jest minimalne wymagane napięcie. Następnie należy sprawdzić, czy przy obciążeniu wyjścia 12V takim prądem napięcie nie spadnie poniżej wymaganego minimum. Jeśli tak jest, trzeba dobrać obciążenie wyjścia 5V tak, aby napięcie na wyjściu 12V nie spadało poniżej minimum. 
+
+W przerabianym egzemplarzu napięcie nie spadało poniżej 11V, czyli napięcia minimalnego dla używanej przez nas ładowarki, dlatego nie było potrzeby obciążania wyjścia 5V. 
+
+Testowanie obciążenia nie jest łatwe, ponieważ moc wydzielana na rezystorach jest bardzo duża i wymaga zastosowania oporników o odpowiedniej obciążalności. Ponadto aby precyzyjnie dobrać obciążenie 5V wskazane jest wykorzystanie rezystorów o regulowanym oporze. My skorzystaliśmy tu z pomocy elektryka – profesjonalisty. 
+
+Kiedy znamy juz wartość oporu, którym chcemy obciążyć wyjście 5V, możemy wyliczyć moc, jaka będzie wydzielała sie na rezystorze (a tym samym obciążenie zasilacza). Skorzystamy ze wzoru: 
+
+Przykładowo dla wymaganego oporu 3Ω wydzielana moc wyniesie: 
+
+P = (5V) 2 / 3Ω = 8.3W 
+
+Aby tak duża moc nie wydzielała się na 1 oporniku, należy użyć 3 oporników 1Ω połączonych szeregowo. Przy takim połączeniu moc wydzielana na pojedynczym rezystorze to 8.3W / 3 = 2.8W . Możemy zatem bezpiecznie zastosować dostępne w handlu oporniki ceramiczne 1Ω o obciążalności 10W. 
+
+Analogicznie, gdy wymagany opór to 2Ω, moc wydzielana wyniesie: 
+
+W takim wypadku sugerujemy zastosowanie połączonych szeregowo czterech oporników 0.56Ω o dopuszczalnej obciążalności 10W. Przy takim połączeniu opór całkowity wyniesie 4 · 0.56Ω = 2.24Ω , a całkowita wydzielana moc wyniesie 5V / 2.24Ω = 11.16W . Moc wydzielana na pojedynczym rezystorze: 11.16W / 4 = 2.79W . 
+
+Gdy wymagany opór jest jeszcze mniejszy (czyli wymagane jest większe obciążenie zasilacza), należy już zastosować równoległe połączenie oporników. W takim wypadku opór całkowity wyliczamy z zależności: 
+
+1 / R = 1 / R 1 + 1 / R 2 + ... + 1 / R n 
+
+Przykładowo użycie 6 oporników 10Ω połączonych równolegle da nam: 
+
+1 / R = 6 · 1 / (10Ω) 
+</document>

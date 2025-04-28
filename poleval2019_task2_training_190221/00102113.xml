@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102113">
+Wyrównywarka, zwana popularnie pajączkiem, służy do wyrównywania napięcia na poszczególnych ogniwach pakietu. Zabieg taki ma korzystny wpływ na żywotność oraz wydajność pakietu. Wyrównywanie polega na kontrolowanym rozładowywaniu każdego ogniwa indywidualnie do ustalonego napięcia. 
+
+Wyrównywarka produkcji <phrase id="287280">LRP</phrase> ma postać płytki z uchwytami do mocowania pakietu. Sześć czerwonych <phrase id="468848">diod <phrase id="287281">LED</phrase></phrase> zamontowanych na płytce sygnalizuje napięcie na poszczególnych ogniwach. Całkowite zgaśnięcie diody oznacza rozładowanie ogniwa do napięcia progowego. Według producenta wynosi ono 0.7 V na ogniwo. Według naszych pomiarów jest ono nieco niższe. Prąd rozładowywania dobierany jest automatycznie i indywidualnie dla każdego ogniwa. Maksymalnie wynosi on 3 A i spada wraz ze spadkiem napięcia ogniwa. 
+
+Według zaleceń producenta pakiet <phrase id="287282">NiMH</phrase> należy włożyć do wyrównywarki na godzinę przed planowanym rozpoczęciem jego ładowania. Niezwłocznie po zakończeniu wyrównywania należy rozpocząć ładowanie pakietu. Niezalecane jest przechowywanie pakietów NiMH w stanie po wyrównaniu, ponieważ są one wtedy głęboko rozładowane, a pakiety <phrase id="287283">NiMH</phrase> należy przechowywać częściowo naładowane. 
+
+Przetestowaliśmy wyrównywarke LRP na pakietach z ogniw <phrase id="292086">IB</phrase> oraz <phrase id="292087">Top Qualifier</phrase>. Pakiet IB3800 po godzinnym wyrównywaniu, kiedy wszystkie diody definitywnie zgasły, miał następujące napięcia na poszczególnych ogniwach: 
+
+0.687 V 0.693 V 0.680 V 0.682 V 0.680 V 0.685 V 
+
+Pomiar przeprowadziliśmy, kiedy pakiet był jeszcze w wyrównywarce. Po wyjęciu go z wyrównywarki napięcia na ogniwach zaczęły się powoli podnosić. 
+
+Ze względu na swoją konstrukcję, wyrównywarkę <phrase id="287286">LRP</phrase> można stosować do pakietów 4 i 6 ogniw o rozmiarze Sub-C. Oczywiście konstrukcja pakietu musi umożliwiać dostęp do każdego ogniwa.Trzeba podkreślić, że pakiet w wyrównywarce można umieścić tylko na jeden sposób. Dlatego w przypadku pakietów dodatkowymi blaszkami do lutowania przewodów, mozliwośc zmieszczenia pakietu w wyrównywarce zalezy od tego, w którą stronę wyprowadzone są blaszki. 
+
+Zarówno podczas pierwszych testów jak i dalszego użytkowania produkt <phrase id="287287">LRP</phrase> nie sprawiał żadnych problemów i zdecydowanie możemy go polecić wszystkim posiadaczom modeli elektrycznych. 
+</document>

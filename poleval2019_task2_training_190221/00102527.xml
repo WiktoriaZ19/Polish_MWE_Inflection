@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102527">
+Jest nim tlen. Okazuje się, że cząsteczki <phrase id="468177">tlenu atmosferycznego</phrase> oświetlone wiązką laserową o długości fali równej 226nm zachowują się w szczególny sposób. Po pierwsze, cząsteczki O2 po zaabsorbowaniu jednocześnie dwóch fotonów o tej długości fali dysocjują, czyli rozpadają się na dwa pojedyncze atomy. W dalszej kolejności te atomy po absorpcji kolejnych dwóch fotonów przechodzą w stan wzbudzony – ich elektrony przesuwają się na wyższe poziomy energetyczne. 
+
+W krótkim czasie (impuls pierwotny trwa raptem 100 pikosekund czyli 100 bilionowych części sekundy) w oświetlanym obszarze jest więcej atomów wzbudzonych niż niewzbudzonych. Stan taki nazywa się inwersją obsadzeń i jest warunkiem koniecznym do wystąpienia emisji laserowej. 
+
+Towarzyszy temu emisja fotonu światła podczerwonego, spójnego z fotonem który wywołał przejście energetyczne. Ostatnie przejście z poziomu pośredniego na najniższy odbywa się w sposób niepromienisty (nie jest emitowany foton) 
+
+Gdy impuls oświetlający się zakończy, w krótkim czasie atomy zaczynają przechodzić z powrotem w stan podstawowy (tzw. <phrase id="468182">emisja spontaniczna</phrase>) . Istotne przy tym jest, że elektrony „wracają” na swoje podstawowe powłoki trochę „inną drogą” niż je opuściły. W efekcie w procesie tym atom emituje jeden foton o długości fali 845nm (podczerwień). W obszarze gdzie występuje inwersja obsadzeń, wystarczy jeden taki foton, aby wywołać łańcuchowa reakcję emisji fotonów o tej samej długości fali (tzw. emisja wymuszona ), a co najważniejsze będących w tej samej fazie, i skierowanych w tym samym kierunku co foton który tą reakcję zapoczątkował. To właśnie emisja laserowa 
+
+No dobrze, ale co zrobić, żeby ta emisja nastąpiła akurat w kierunku lasera który ją wywołał? 
+
+Ten problem rozwiązano nadając odpowiedni kształt obszarowi, w którym skupiana jest wiązka lasera ultrafioletowego. Obszar ten ma kształt cylindra o osi ustawionej wzdłuż promienia lasera. Taki kształt powoduje, że najwięcej fotonów emitowanych jest właśnie w kierunku tej osi, bo w tym kierunku zachodzi najwięcej „łańcuchowych” emisji. Część fotonów jest oczywiście emitowana w kierunku „od” lasera źródłowego i jest nieużyteczna. Część (około 6%) ucieka na boki. Część natomiast wraca z powrotem, po drodze rozpraszając się na obecnych w powietrzu cząsteczkach. 
+</document>

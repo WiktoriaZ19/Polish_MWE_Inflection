@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101373">
+<phrase id="66856">International Mobile Subscriber Identity</phrase> 
+
+<phrase id="66854">IMSI</phrase> (ang. <phrase id="66855">International Mobile Subscriber Identity</phrase>) - unikalny numer przypisany do każdej <phrase id="425320">karty SIM</phrase> w <phrase id="425321">sieci <phrase id="66844">GSM</phrase></phrase> lub <phrase id="66845">UMTS</phrase>, jednoznacznie ją identyfikujący <phrase id="66847"><phrase id="425322"><phrase id="66846">ITU</phrase>-T Recommendation E.212</phrase> (05/08): The international identification plan for public networks and subscriptions</phrase> . 
+
+Numer zapisany jest na karcie SIM oraz w rejestrze <phrase id="425325">HLR Specyfikacja 3GPP TS 23.002 V4.8.0</phrase> (2003-06) . 
+
+W systemach <phrase id="66848">GSM</phrase> oraz <phrase id="66849">UMTS</phrase>, każdemu abonentowi jest przydzielony indywidualny, niepowtarzalny numer identyfikacyjny <phrase id="66857">IMSI</phrase> służący do identyfikacji tego abonenta na drodze radiowej. 
+
+IMSI składa się z trzech części: 
+
+# kodu kraju stacji ruchomej <phrase id="66859">MCC</phrase> (ang. <phrase id="66860">Mobile Country Code</phrase>), obejmującego trzy cyfry (np. <phrase id="326672">Francja</phrase>: 208, <phrase id="66851">Niemcy</phrase>: 262, <phrase id="66852">Polska</phrase>: 260); <phrase id="66864">MCC</phrase> identyfikuje jednoznacznie macierzysty kraj abonenta ruchomego, 
+
+# kodu sieci <phrase id="66861">MNC</phrase> (ang. <phrase id="425330">Mobile Network Code</phrase>), zawierającego dwie lub trzy cyfry identyfikujące sieć; MNC identyfikuje macierzystą sieć danego abonenta ruchomego, 
+
+# numeru identyfikacyjnego abonenta ruchomego MSIN (ang. <phrase id="66866">Mobile Subscriber Identification Number</phrase>), identyfikującego go w danej sieci komórkowej. 
+
+IMSI są tworzone tylko z cyfr (od 0 do 9). Ogólna liczba cyfr w IMSI nie może przekraczać 15 cyfr. Przydziały krajowych numerów identyfikacyjnych abonentów ruchomych są dokonywane w uzgodnieniu z administracją łączności danego kraju. 
+</document>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101903">
+Język opisu <phrase id="467828">wymagań funkcjonalnych</phrase> na <phrase id="467829">system informatyczny</phrase> 
+
+<phrase id="467830">Język naturalny</phrase> – stosowany we wstępnym etapie prac, nie wymaga dodatkowej wiedzy, jednak może być niejednoznaczny. <phrase id="467831">Język naturalny strukturalny</phrase> – naturalny z ograniczonym słownictwem, narzuca strukturę opisu, wymusza większą jednoznaczność, wymaga znajomości ograniczeń tego języka. Tablice i formularze – przedstawienie wymagań w postaci tablic (formularzy), strukturalizuje informacje, wypełnianie tablic językiem naturalnym. Diagramy blokowe – uzupełniają formę specyfikacji wymagań, ułatwiają komunikację klient wykonawca, konieczność tworzenia legend, symboliki i semantyki. Diagramy kontekstowe i DPU – przedstawienie graficzne wymagań, pokazują powiązanie z otoczeniem, wymagają znajomości notacji. 
+</document>

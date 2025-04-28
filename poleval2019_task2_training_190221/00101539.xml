@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101539">
+Czas wakacji był dobrym momentem do wprowadzenia uaktualnień oraz opracowania nowych funkcjonalności <phrase id="356823">Uczelnianej Platformy e-Learningowej</phrase> . Jedną z nich było dostosowanie <phrase id="356824">Platformy <phrase id="67780">Moodle</phrase></phrase> dla <phrase id="356825">osób słabowidzących</phrase> (o innych wkrótce). Dostosowując platformę do potrzeb osób słabowidzących przyjęliśmy następujące założenia: 
+
+Wprowadzone zmiany w kodzie <phrase id="63183">Moodla</phrase> nie mogą utrudniać/uniemożliwiać jego uaktualnień. 
+
+Generowane strony muszą być zgodne ze standardem <phrase id="63184">XHTML 1.0</phrase> 
+
+Rozwiązanie problemu nieczytelnych ikon Moodla. 
+
+Zastosowanie odpowiednich kontrastowych kolorów oraz umożliwienie skalowalności czcionek. 
+
+Zrezygnowanie z grafik nieinformacyjnych oraz ograniczenie do minimum grafik informacyjnych. 
+
+Ze względu na konieczność dokonywania częstych uaktualnień platformy <phrase id="63186">Moodle</phrase> nie zdecydowaliśmy się na istotne zmiany w kodzie <phrase id="63187">Moodla</phrase>. W dostosowaniu platformy dla osób słabowidzących wykorzystaliśmy możliwość jaką daje opracowanie nowego <phrase id="356827">szablonu graficznego</phrase>. Dokonaliśmy także modyfikacji w konfiguracji Moodla. 
+
+Domyślnie na platformie <phrase id="63189">Moodle</phrase> nie jest możliwa zmiana szablonu graficznego przez użytkownika przed dokonaniem jego autoryzacji na platformie. Użytkownik może zmienić szablon dopiero po zalogowaniu, po wcześniejszym nadaniu odpowiednich uprawnień przez administratora. Takie rozwiązanie powoduje iż wymagane byłoby stworzenie odrębnych formularzy do logowania przeznaczonych dla osób słabowidzących. Ponad to użytkownik musiałby zmienić swój szablon graficzny na platformie podczas obowiązywania standardowego szablonu graficznego, co może powodować dużą trudność dla osoby słabowidzącej. Z w/w względów dokonaliśmy modyfikacji w konfiguracji <phrase id="63190">Moodla</phrase>, która umożliwia zmianę szablonu graficznego platformy przed autoryzacją na platformie. Zmiana szablonu dokonana przez użytkownika obowiązuje podczas trwania bieżącej sesji przeglądarki internetowej. 
+
+Komunikacja użytkownika z platformą Moodle odbywa się w dużym stopniu za pomocą ikon. Rozróżnianie standardowych ikon platformy Moodle dla osób słabowidzących jest bardzo trudne. Pierwszą myślą która nam się nasunęła było zamienienie standardowych bitmapowych ikon platformy na nowo opracowane ikony wektorowe o odpowiednim kontraście i odpowiednio niskim poziomie złożoności, tak aby były w dowolny sposób skalowalne i bez problemu rozróżnialne dla osób słabowidzących. Nie udało się nam jednak tego zrealizować ze względu na nasze pierwsze założenie (uaktualnienia <phrase id="63193">moodla</phrase>). Ikony na platformie moodle zdefiniowane są w obrębie samej aplikacji oraz modułów <phrase id="63194">Moodla</phrase>. Przedefiniowanie ikon na wektorowe wymagałoby istotnych zmian w kodzie Moodla, które musiały by być uwzględniane podczas każdej aktualizacji platformy. W chwili obecnej przyjęliśmy inne rozwiązanie – ograniczyliśmy do minimum ikony wykorzystywane w systemie. Zbędne usunęliśmy, tak aby nie wprowadzały nieczytelnej informacji a bezwzględnie wymagane zamieniliśmy na nowe jednokolorowe ikony o wysokim kontraście i bardzo symbolicznym wyglądzie, oraz na skróty literowe. Opisy wszystkich wykorzystywanych na platformie ikon i skrótów umieściliśmy w stopce strony. 
+</document>

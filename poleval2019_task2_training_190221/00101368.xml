@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101368">
+Kopiec dwumianowy 
+
+<phrase id="425288">Kopiec dwumianowy</phrase> - struktura danych umożliwiająca łatwe wykonywanie zwykłych operacji kopcowych (insert, findmin, deletemin) oraz operacji łączenia kopców (meld). Jest to zbiór drzew dwumianowych, które pamiętają elementy z uporządkowanego uniwersum w porządku kopcowym. 
+
+Drzewo dwumianowe 
+
+Drzewo dwumianowe (ang. binomial tree) B k jest drzewem poszukiwań zdefiniowanym rekurencyjnie w sposób następujący: 
+
+drzewo dwumianowe rzędu 0 składa się z jednego węzła (korzenia); 
+
+drzewo dwumianowe rzędu k składa się z korzenia oraz jego dzieci, którymi są drzewa dwumianowe rzędów k-1, k-2, ..., 1, 0 (dokładnie w tej kolejności). 
+
+Drzewo dwumianowe rzędu k ma 2 k węzłów i wysokość k. 
+
+Drzewo dwumianowe rzędu k może być łatwo zbudowane z dwóch drzew rzędu k-1, przez dołączenie jednego z nich jako najbardziej lewego syna do korzenia drugiego. Ta cecha jest kluczowa dla operacji łączenia, która jest główną przewagą kopców dwumianowych nad innymi kopcami. 
+
+Struktura kopca dwumianowego 
+
+Kopiec dwumianowy implementuje się jako zbiór drzew dwumianowych zachowujących własności kopca dwumianowego: 
+
+Każde drzewo dwumianowe zachowuje własność kopca: wartość węzła jest większa lub równa niż wartość jego rodzica 
+
+W kopcu może znajdować się co najwyżej jedno drzewo z każdego rzędu. 
+
+Pierwsza własność gwarantuje, że każdy korzeń drzewa dwumianowego zawiera najmniejszą wartość w drzewie, co stosuje się do całego kopca. 
+
+Dzięki drugiej własności wiemy, że kopiec dwumianowy zawierający n elementów składa się z co najwyżej lg n + 1 drzew dwumianowych. Istotnie, liczba i rzędy tych drzew są jednoznacznie wyznaczone przez liczbę elementów w kopcu: każde drzewo odpowiada jedynce w reprezentacji dwójkowej liczby n. Na przykład 13 to 1101 w systemie dwójkowym, 2^3 + 2^2 + 2^0 , a więc kopiec dwumianowy z 13 elementami będzie się składał z 3 drzew o rzędach 3, 2 i 0 (patrz rysunek niżej). 
+
+W kopcu dwumianowym, operację findmin (znalezienia najmniejszego elementu) wykonuje się poprzez sprawdzenie wszystkich korzeni drzew dwumianowych. Wymaga to O(log n) operacji. 
+
+Operacje insert wykonuje się w sposób analogiczny do dodawania liczby 1 w reprezentacji binarnej. 
+
+Tworzymy drzewo dwumianowe o wielkości 1 zawierające dodawany element. 
+
+Jeśli w kopcu nie ma drzewa o wielkości 1, dodajemy je na początku listy drzew i kończymy. 
+
+Jeśli w kopcu jest drzewo o wielkości 1, dokonujemy złączenia obu drzew (tej samej wielkości). Wymieramy jedno z tych drzew (o mniejszym korzeniu), i dodajemy drugie drzewo jako jego potomek. Tworzymy w ten sposób drzewo dwumianowe o wielkości 2. 
+</document>

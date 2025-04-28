@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101902">
+Przenoszenie <phrase id="467822">bazy <phrase id="80942">MS Access</phrase></phrase> do <phrase id="80943">MySQL</phrase> 
+
+Do pracy posłużą nam pliki z <phrase id="467824">pakietu MDB Tools</phrase> 
+
+mdb-schema plik.mdb mysql 
+
+Więcej w man mdb-schema . 
+
+W wyjściu pojawia się jednak dziwny znak 'Â', który na stronie <phrase id="467825"><phrase id="80944">ASCII</phrase> Character Codes</phrase> został wyśledzony jako posiadacz kodu 194 (<phrase id="467826"><phrase id="80945">HTML</phrase> Code</phrase> &amp;194;). 
+
+Aby się go pozbyć można wykorzystać polecenie tr . 
+
+Usuń dziwny znaczek z pliku wyjściowego: 
+
+Czyli w naszym przypadku należy wpisać spod konsoli: 
+
+mdb-schema plik.mdb mysql | tr -d 'Â' &gt; schemat.sql 
+
+Otrzymamy w ten sposób plik schemat.sql , w którym zawarte będą zapytania do bazy MySQL tworzące tabele o polach odpowiadających tym z pliku accessa. 
+
+Jeżeli chcemy uniknąć dalszych problemów dobrze byłoby usunąć polskie ogonki. 
+
+Usuń ogonki z polskich znaków: 
+
+#!/bin/bash tr 
+
+Czyli w naszym przypadku należy wpisać spod konsoli: 
+
+mdb-schema plik.mdb mysql | tr -d 'Â' | tr. Do pracy na wielu tabelach dobrze jest mieć ich schemat przed sobą. Polecam wtedy przepuścić schemat bazy przez poniższy skrypt. 
+
+Oczyść trochę wyjście: 
+
+Powyższy kod podczas filtrowanie pominie: 
+
+* puste wiersze ('^$') * komentarze ('^--') * drop ('^DROP') 
+
+Utworzenie tabeli ze schematu 
+
+Idąc za man mysql można to zrobić tak: 
+
+shell&gt; mysql db_name &lt; script.sql 
+
+Gdzie shell&gt; to znak zachęty powłoki, db_name - nazwa bazy, w której chcemy utworzyć tabele, script.sql to nic innego jak nasz schemat.sql . 
+
+Więcej chociażby w artykule <phrase id="90687">MySQL</phrase> nieinteraktywny . 
+
+Idąc dalej za manem w trybie interaktywnym można wykorzystać polecenie source . Wpisz man mysql , przejdź do sekcji <phrase id="310469">MYSQL</phrase> COMMANDS i znajdź opis tego polecenia (można też wcisnać / i wpisać source). Polecenie to wykonuje polecenia SQL zapisane w pliku. Przyjmuje nazwę pliku jako argument. 
+
+Wyciąganie danych z pliku mdb. 
+
+Do tego posłuży nam narzędzie mdb-export . 
+
+$ whatis mdb- ) - Export data in an MDB database table to <phrase id="467827">CSV format</phrase>. 
+
+Więcej w man mdb-export . 
+</document>

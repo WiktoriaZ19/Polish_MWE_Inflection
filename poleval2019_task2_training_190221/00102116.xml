@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102116">
+Osprzęt 
+
+Silnik i elektronika nie są częścią zestawu. W budowanym przez nas modelu wykorzystaliśmy następujące elementy: 
+
+<phrase id="468863">regulator <phrase id="290890">Novak</phrase> <phrase id="350360">Rooster Crawler</phrase></phrase> 
+
+<phrase id="468864">silnik Novak <phrase id="350361">55T</phrase></phrase> 
+
+<phrase id="468865">serwo Hitec <phrase id="350362">HS-985MG</phrase></phrase> 
+
+odbiornik Spektrum SR3001 
+
+<phrase id="468867">pakiet MaxAmps <phrase id="350364">Li-Poly 2S 4000mAh</phrase></phrase> 
+
+[27 - 30] Serwo do układu kierowniczego zamontowaliśmy poprzez servo saver, jednak we wspinaczach do zastosowań zawodniczych należy zamiast savera użyć sztywnego orczyka. Regulator zamontowaliśmy na serwie skrętu. Przewody od regulatora przylutowaliśmy bezpośrednio do silnika. 
+
+[31 - 33] Pakiet mocujemy w sposób przewidziany przez producenta, czyli rzepami do płytki pakietu. Odbiornik przykleiliśmy pod płytką pakietu 
+
+[36] Pozostaje nam już pomalowanie, wycięcie oraz zamontowanie karoserii i model jest gotowy do testów. 
+</document>

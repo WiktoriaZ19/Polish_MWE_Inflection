@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00107361">
+2010-08-02: Ruszyły prace nad nowym interfejsem ładowania plików dla <phrase id="329521">MediaWiki</phrase> 
+
+W drugiej połowie lipca powstawać zaczęła specjalna <phrase id="329522">wiki</phrase>, na której testowane będzie specjalne rozszerzenie dla <phrase id="329523">MediaWiki</phrase>: <phrase id="329524">Upload wizard</phrase>. Dzięki niemu sposób ładowania plików dla nowicjuszy ma być, zgodnie z założeniem projektu <phrase id="329525">Usability Initiative</phrase> znacznie łatwiejszy. Na stronie specjalnej <phrase id="329526">wiki</phrase> można już w tej chwili przetestować nowy interfejs ładowania plików. Przy użyciu testowanego formularza, przesyłanie plików ma składać się z 4 kroków: 
+
+wybrania pliku z dysku i załadowania na serwer (w tym kroku można wybrać opcję przesłania kilku plików) 
+
+wybrania autorstwa i licencji (bazowo wybierana jest przez automat jedna licencja, ale można dokonać zmiany) 
+
+wybrania tytułu strony, dokonania opisu co zawiera plik i dodania kategorii (data do opisu pobierana jest z metadanych plików <phrase id="329527">exif</phrase>). W tym kroku można też dodać "inne" informacje do osobnego pola 
+
+ostatnim krokiem jest skopiowanie <phrase id="329528">wikikodu</phrase> z linkiem do grafiki, który można użyć na stronach danej wiki. 
+
+Testowa <phrase id="329530">wiki</phrase> tworzona jest w głównej mierze przez <phrase id="329531">holenderskiego</phrase> <phrase id="329532">wikipedystę</phrase> HenkvD. Rozszerzenie to może zostać zainstalowane w <phrase id="329535">Wikimedia Commons</phrase>, repozytorium plików dla projektów <phrase id="329536">Wikimedia</phrase>. Obecnie załadowano tam ponad 7 milionów plików. Aby móc wziąć udział w testowaniu nowego interfejsu, trzeba założyć własne konto, ponieważ strona ta nie obsługuje działającego w projektach <phrase id="329537">Wikimedia</phrase> konta uniwersalnego. 
+
+Źródła 
+
+<phrase id="329539">Upload wizard</phrase> na stronie <phrase id="329540">Usability Initiative</phrase> 
+
+Strona główna <phrase id="329542">wiki</phrase> służącej do testowania nowego interfejsu 
+</document>

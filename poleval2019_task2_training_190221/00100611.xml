@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00100611">
+Po drugie, książki z naszej kolekcji, które są dostępne na <phrase id="420228">licencji <phrase id="64666">Creative Commons</phrase></phrase> umieściliśmy – na mocy licencji – w <phrase id="420229">serwisie <phrase id="53047">Scribd</phrase></phrase> . Pozwala on publikować w sieci <phrase id="40351">PDFy</phrase>, które są widoczne bezpośrednio w przeglądarce i dają się łatwo i elegancko umieszczać na innych stronach. Do tego system <phrase id="53048">Scribd</phrase> umożliwia licencjonowanie <phrase id="41378">Creative Commons</phrase>. 
+
+Po trzecie – i chyba najważniejsze – uruchomiliśmy <phrase id="420230">protokół <phrase id="41379">OAI PMH</phrase></phrase> , pozwalający automatycznie katalogować z zewnątrz metadane książek z naszej kolekcji (opisujemy je w modelu <phrase id="420231">Dublin Core</phrase> ). Oznacza to między innymi, że treści naszego serwisu mogą być przeszukiwane w ramach wyszukiwarek agregujących zbiory różnych kolekcji. Wykorzystując <phrase id="41380">OAI PMH</phrase> podpięliśmy nasz serwis do <phrase id="420232">Federacji Bibliotek Cyfrowych</phrase> – ogólnopolskiej wyszukiwarki pozwalającej przeszukiwać naraz kilkadziesiąt bibliotek cyfrowych i kilkaset tysięcy pozycji. 
+</document>

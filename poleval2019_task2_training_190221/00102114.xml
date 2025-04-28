@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102114">
+Zanim przystąpimy do rozkręcenia zasilacza przyjrzyjmy się wiązkom przewodów wychodzących z jego obudowy. <phrase id="468851">Zasilacze <phrase id="290882">ATX</phrase></phrase> mają tę miłą cechę, że kolor danego przewodu jednoznacznie identyfikuje jego funkcję, bez względu na to do jakiej wtyczki przewód ten prowadzi. Przykładowo każdy przewód koloru czerwonego to zawsze <phrase id="468852">+5V</phrase>. 
+
+Warto jednak upewnić się, że producent tak samo interpretuje kolory jak my. W tym celu zlokalizujmy wiązkę przewodów zakończonych wtyczką do płyty głównej: jest to największa wtyczka o 20 pinach w układzie 2 x 10. Pośrodku jednego z dłuższych boków wtyczki znajduje się plastikowy zaczep. Żeby móc przystąpić do identyfikacji przewodów musimy zlokalizować pin 1. Jeśli trzymamy wtyczkę otworami do siebie i zaczepem do góry, pin ten znajduje się w lewym dolnym rogu. 
+
+Teraz porównujemy kolory przewodów wchodzących do poszczególnych pinów z tabelką poniżej. Uwaga: do pinu 11 wchodzą dwa przewody, nie jest to pomyłka. 
+
+Mając już zidentyfikowane piny możemy przystąpić do rozkręcenia zasilacza. Upewniamy się, że nie jest on podpięty do prądu i wykręcamy śruby od pokrywy. Powinny się one znajdować w rogach zasilacza. Należy się upewnić, że wykręcamy śruby od pokrywy, a nie od wentylatora. Po odkręceniu czterech śrubek zdejmujemy pokrywę zasilacza – obejmuje ona dwa boki i górę. 
+</document>

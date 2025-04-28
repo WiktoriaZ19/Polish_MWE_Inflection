@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102155">
+Każdy graf prosty, planarny jest 5-kolorowy. 
+
+Dowód 
+
+G prosty, planarny, n - liczba wierzchołków wynika z <phrase id="468117">twierdzenia <phrase id="80961">Eulera</phrase></phrase> o wielościanach . 
+
+Załóżmy, że . Dowód przez indukcje po liczbie wierzchołków. Dla n = 5 jak wyżej. 
+
+<phrase id="468120">Założenie indukcyjne</phrase>: Twierdzenie zachodzi dla grafów mających mniej niż n wierzchołków. 
+
+Teza indukcyjna: Twierdzenie zachodzi dla grafów mających n wierzchołków (n &gt; 5). 
+
+Na mocy wniosku z twierdzenia <phrase id="91906">Eulera</phrase> o wielościanach istnieje takie, że . 
+
+1. deg(v) &lt; 5. 
+
+Rozważmy graf G-v. Jest prosty, planarny, ma n - 1 wierzchołków. Na mocy założenia indukcyjnego istnieje kolorowanie C grafu G-v za pomocą 5 kolorów. 
+
+Niech v 1 ,..., v k będą wierzchołkami sąsiednimi dla v w G (k&lt;5). Znajdziemy kolor różny od kolorów c i dla . Nadajemy ten kolor wierzchołkowi v. 
+
+2. deg(v) = 5. 
+
+Niech v 1 ,..., v 5 będą wszystkimi wierzchołkami sąsiednimi dla v. Skoro G jest planarny, to nie zawiera grafu K 5 , a stąd istnieje i &lt; j takie, że wierzchołki v i , v j nie są sąsiednie. 
+
+Rozważmy graf G'= (Gvv i )vv j . G' jest grafem planarnym. Po usunięciu powstałych krawędzi wielokrotnych G' jest prosty. G' ma mniej niż n wierzchołków. Na mocy założenia indukcyjnego istnieje kolorowanie C grafu G' za pomocą 5 kolorów. 
+
+Tworzymy kolorowanie grafu G-v w ten sposób, że wierzchołki v i , v j mają kolor wspólnego wierzchołka w G'. Najwyżej 4 kolory występują w ciągu c(v 1 ),..., c( 5 ) bo c(v i ) = c(v j ). 
+</document>

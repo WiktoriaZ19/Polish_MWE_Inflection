@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103881">
+Uniwersalność 12 bazowego <phrase id="484494">modelu CRF</phrase> została przetestowana na korpusach CPR i CEN, po wcześniejszym wyuczeniu modelu na całym <phrase id="484496">korpusie CSER</phrase>. Podobnie jak przy walidacji krzyżowej zostały przetestowane dwa warianty modelu CRF, tj. dla wąskiego i szerokiego kontekstu. Pod względem precyzji dla obu korpusów model z większym kontekstem osiągnął lepszą precyzję. W przypadku korpusu CPR była to różnica 2 punktów procentowych, a w przypadku CEN była to nieznaczna różnica 0,4 punktu procentowego. Zwiększenie kontekstu spowodowało także zmniejszenie się kompletności o 4 punkty procentowe w przypadku CPR i 2 punkty procentowe dla CEN. 
+
+Model z szerokim kontekstem pozwala na rozpoznanie bardzo precyzyjnych kontekstów występowania nazw własnych. Dzięki temu można osiągnąć dużą precyzję modelu, odbywa się to jednak kosztem jej kompletności. 
+
+Jakość rozpoznawania nazw własnych osiągnięta przez model bazowy CRF jest znacznie wyższa od wyników osiągniętych przez metodę regułową i słownikową. Dla walidacji krzyżowej na korpusie CSER średnia harmoniczna wyniosła 92,53%, podczas gdy dla podejścia regułowego osiągnięto 70,00%, a dla podejścia słownikowego zaledwie 35,27%. Dla oceny międzydziedzinowej na korpusie CPR osiągnięto 67,72% średniej harmonicznej, a dla <phrase id="484499">metod bazowych</phrase> odpowiednio 8,94% dla <phrase id="484498">metody regułowej</phrase> i 48,12% dla <phrase id="484497">metody słownikowej</phrase>. Podobne wyniki zostały osiągnięte na <phrase id="484500">korpusie CEN</phrase>. 
+</document>

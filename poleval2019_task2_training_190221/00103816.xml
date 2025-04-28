@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103816">
+U podstaw pracy leży założenie, że pojawianie się <phrase id="484244">stanu nieustalonego</phrase> w drganiach konstrukcji jest skorelowane z wartością lokalnego maksimum xmax. W myśl warunków i. ÷ iii. ich wartości są największe wśród <phrase id="484246">maksimów lokalnych</phrase> znajdujących się w odpowiadających im okresach przedudarowych i udarowych. Posługując się relatywnością między tymi okresami można powiedzieć, że jeżeli wartość xmax jest zawarta w przedziale ufności dla wartości średniej, zbudowanym na lokalnych maksimach w okresie przedudarowym, to charakter drgań w obu okresach jest zbliżony i prawdopodobieństwo zaistnienia drgań istotnie nieustalonych jest niewielkie. 
+
+Wszystkie okresy przedudarowe zawierają liczbę maksimów większą od 3, co umożliwia na ich podstawie obliczanie statystyk (np. granic przedziałów ufności). 
+
+Zatem dla każdej wartości xmax można obliczyć nadwyżkę: (7.4) Δ = xmax − ci; gdzie ci — górna granica przedziału ufności dla wartości średniej maksimów z <phrase id="484247">okresu przedudarowego</phrase> dla rozpatrywanego xmax. Ze względu na znaczną zmienność drgań konstrukcji <phrase id="484248">koparek wieloczerpakowych</phrase> i ich immanentny nieustalony charakter, autor przy konstruowaniu granic ci przyjął stosunkowo wysoki poziom ufności – 99% [17]. 
+
+Wówczas okresy przedudarowe i udarowe towarzyszący tym xmax, dla których spełniony jest warunek: (7.5) Δ &lt;= 0; można określić mianem względnie spokojnej pracy. 
+
+Liczba potencjalnie istotnych odkształceń udarowych xmax spełniających warunek (7.5) w przypadku przykładowych maszyn wynosi: SRs-1800 — n2 = 4930 obserwacji (6% liczności n1 zbioru wszystkich xmax), SRs-1200 — n2 = 864 obserwacji (0; 75% liczności n1 zbioru wszystkich xmax). 
+
+Scharakteryzowanie w dziedzinie częstotliwości zależności miedzy okresami, dla których powyższy warunek jest spełniony umożliwi dowiedzenie prawdziwości tezy niejako przez negację. Ze względu jednak na wspomniany względnie spokojny charakter drgań eksploatacyjnych ustrojów koparek kołowych niemożliwe jest ostre rozgraniczenie drgań istotnie nieustalonych wywołanych obciążeniem impulsowym od widma pozostałych drgań. W takich warunkach pomocne są narzędzia, jakimi dysponuje statystyka matematyczna. Przy ich użyciu autor skonstruował dwie bezwymiarowe wielkości umożliwiające dokonanie podziału drgań eksploatacyjnych koparek kołowych na podstawie zmian zachodzących w <phrase id="484250">widmach częstotliwościowych</phrase>. 
+</document>

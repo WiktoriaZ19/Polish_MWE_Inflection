@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101910">
+Drzewem spinającym <phrase id="467873">grafu spójnego G</phrase> nazywamy <phrase id="467874">podgraf G</phrase> będący drzewem i zawierającym wszystkie wierzchołki grafu G. 
+
+Las spinający grafu niespójnego G zawiera po jednym drzewie spinającym dla każdej składowej grafu G. 
+
+G - n wierzchołków, wybieramy krawędzie e 1 , e 2 ,..., e n − 1 w taki sposób, żeby dla każdego i=1,2,...,n-1 e i było krawędzią o najmniejszej wadze, nie tworzącą cyklu z krawędziami 
+
+Niech G będzie spójnym (bez pętli) grafem z wagami mającymi n wierzchołków. <phrase id="467877">Algorytm zachłanny</phrase> opisany powyżej wyznacza drzewo spinające T grafu G o najmniejszej wadze całkowitej. 
+
+Otrzymany graf T ma n wierzchołków, n-1 krawędzi i nie zawiera cykli, więc jest drzewem ( twierdzenie o drzewach ). 
+
+Przypuśćmy, że S jest drzewem spinającym grafu G, że w(S)&lt;w(T). Niech będzie pierwszą wybraną krawędzią, która nie należy do S. Dodając e k do S otrzymamy podgraf grafu G mając dokładnie jeden cykl C przechodzącym przez twierdzenie o drzewach ). 
+
+Cykl C zawiera krawędź , lecz nienależącą do T. Tworzymy podgraf S' grafu G zastępując e przez e w S. S ma n-1 krawędzi i jest grafem spójnym, a więc jest drzewem spinającym grafu G. Mamy (z konstrukcji e 1 , n − 1 ), a więc . 
+
+Drzewo S ma więcej krawędzi wspólnych z T niż z S. Powtarzając powyższą procedurę skończenie wiele razy otrzymamy w końcu drzewo T i nierówność wbrew założeniu w(S) &lt; w(T). Sprzeczność. 
+
+Analogicznie wyznaczamy drzewo spinające o największej wadze całkowitej. 
+</document>

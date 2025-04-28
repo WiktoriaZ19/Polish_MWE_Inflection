@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102370">
+W <phrase id="337783">Niemczech</phrase> stworzono <phrase id="484750">bazę danych</phrase> o nazwie 0xdb , będącą katalogiem filmów zbudowanym w dużej mierze w oparciu o dane wyssane z <phrase id="484752">serwisów p2p</phrase>: 
+
+Projekt jest ciekawy, bo sonduje granice dozwolonego użytku (w tym wypadku przede wszystkim prawa do cytowania) - dowodząc, że można w jego ramach zrobić całkiem dużo. Przypomina mi się projekt, o którym opowiadał kiedyś <phrase id="337784"><phrase id="337785">John</phrase> <phrase id="337786">Wilbanks</phrase></phrase> z <phrase id="342844">Science Commons</phrase>: data miningu legalnie dostępnych streszczeń <phrase id="484755">artykułów naukowych</phrase> (których pełne wersje są zastrzeżone) w celu wysysania z nich przydatnych informacji / wiedzy. 
+
+Jeszcze jedna, konkretna rzecz, którą robią twórcy 0xdb, jest warta uwagi - otóż wykorzystują oni podpisy do filmów jako dane pozwalające przeszukiwać pełnotekstowo treść produkcji. 
+
+To klasyczny przykład na “użycie nieprzewidziane przez twórców” - jakich w <phrase id="337787">internecie</phrase> pełno. Tu mam wątpliwość, czy korzystanie z takich nieautoryzowanych list dialogowych jest legalne (a przynajmniej w jakim zakresie?). Jedno jest pewne - taka wyszukiwarka rzuca nowe światło na kwestię podpisów: nagle okazuje się, że piraccy tłumacze przy okazji wykonują cenną pracę archiwizacyjną. 
+</document>

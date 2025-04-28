@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102541">
+<phrase id="468225">Uogólnienie klas</phrase> - uogólnienie klas opiewa definicję klasy abstrakcyjnej, które reprezentują obiekty. Dziedzicząc z niej, możesz skonkretyzować niektóre jej cechy i zachowania. Metoda abstrakcyjna służy do określenia interfejsu, lecz nie posiada ciała metody, więc nie można jej wywołać. Klasa z metodą abstrakcyjną jest również abstrakcyjna. 
+
+Przykład: Nie stworzymy obiektu klasy Zwierze, bo zwierzę jest bytem dosyć abstrakcyjnym. Możemy wszystkie obiekty traktować jako zwierzęta, ale tak naprawdę są one instancjami innych klas (np. Pies). 
+</document>

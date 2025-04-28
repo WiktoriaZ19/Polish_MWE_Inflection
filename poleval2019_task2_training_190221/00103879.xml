@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00103879">
+W powyższym szablonie transformacji znajduje się opis jednego szablonu kwerendy SQL. Szablon ten zostanie wygenerowany, jeżeli dla danego pytania po wykonaniu reguły WCCL zostanie wstawiony znacznik arg_person_nam. W miejsce {arg_person_nam} zostanie wstawiona forma bazowa anotacji arg_person_nam. Ponieważ niedostępne jest narzędzie pozwalające na ustalenie formy bazowej dla dowolnej frazy, to za formę bazową przyjmuje się konkatenację form bazowych dla kolejnych słów z frazy. 
+
+Jeżeli <phrase id="484471">szablon kwerendy SQL</phrase> zawiera kilka argumentów, to wszystkie muszą zostać oznaczone w analizowanym pytaniu, aby możliwe było wygenerowanie kwerendy. Jeżeli będzie brakowało przynajmniej jednego argumentu, to kwerenda nie zostanie wygenerowana. 
+
+Dotychczas przedstawiona procedura analizy pytań opierała się o pełne dopasowanie szablonów pytań. Takie rozwiązanie pozwala na bardzo precyzyjną analizę pytań, ale jednocześnie nie gwarantuje dużego pokrycia różnych form pytań. Aby rozszerzyć zakres pokrywanych pytań, bez konieczności opracowania kolejnych szablonów pytań, została wdrożona procedura częściowego dopasowania pytań. Dodatkowo dzięki częściowemu dopasowywaniu pytań możliwa będzie częściowa redukcja błędów powstałych na poziomie rozpoznawania nazw własnych. Częściowe dopasowanie uwzględnia następu jące sytuacje: 
+
+• niepoprawne rozpoznanie kategorii nazw własnych — przypisanie nieprawidłowej kategorii nazwy własnej powoduje brak dopasowania operatora is("kategoria"), 
+
+• brak rozpoznania <phrase id="484474">nazw własnych</phrase> — sytuacja analogiczna do powyższej, z tym, że żadna nazwa nie jest rozpoznana, 
+
+• różne formy zapisu pytania, który uwzględnia zmienny <phrase id="484476">szyk wyrazów</phrase>, użycie synonimów, dodatkowe słowa. 
+
+Poszczególne aspekty uogólniania zostały omówione w kolejnych podpunktach. 
+
+Wszystkie szczegółowe kategorie nazw własnych występujące w regułach dopasowania zostają uogólnione do kategorii proper_name. Na etapie dopasowania szablonów, jeżeli żadna z reguł nie zostanie dopasowana, to wykonywana jest kolejna iteracja, w której wszystkie warunki dopasowujące szczegółowe kategorie nazw własnych zostają zamienione na kategorię ogólną proper_name. 
+
+Jeżeli <phrase id="484477">moduł Liner2</phrase> nie rozpozna żadnej nazwy własnej w analizowanym pytaniu, to warunek dopasowujący nazwy własne zastąpiony jest warunkiem dopasowującym sekwencję będącą potencjalną nazwą własną. Dopasowanie do potencjalnej nazwy własnej ma postać: repeat( is("proper_name_candidate") ) 
+
+Reguła znakująca potencjalne nazwy własne jest umieszczona w pomocniczym pliku z regułami transformations-common.ccl, który jest wykonywany przed regułami pytań. Reguła pomocnicza znakująca proper_name_candidate została przedstawiona na wydruku 6.5. 
+</document>

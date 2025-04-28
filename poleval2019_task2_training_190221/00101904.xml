@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101904">
+<phrase id="80434">VerliHub</phrase> jest serwerem protokołu <phrase id="467838">Direct Connect</phrase> działającym pod systemem operacyjnym opartym o jądro <phrase id="80429">Linux</phrase>, napisany w całości w <phrase id="467840">C++</phrase>. Spośród innych serwerów tego typu wyróżnia go duża wszechstronność: obsługa <phrase id="467841">bazy <phrase id="80430">MySQL</phrase></phrase>, małe zużycie procesora i RAM'u, zabezpieczenia przed spamem, możliwość dodawania własnoręcznie napisanych botów oraz plugin'ów, które wielokrotnie podnoszą możliwości samego <phrase id="80431">VerliHub'a</phrase>. 
+
+Instalację <phrase id="80432">VerliHub'a</phrase> przedstawię na przykładzie wersji <phrase id="80437">verlihub-<phrase id="80438">0.9.8d_RC1-1</phrase></phrase>. Żeby zacząć przygodę z serwerem <phrase id="80439">DC</phrase> nie wystarczy jednak sam <phrase id="80440">verlihub</phrase>. Potrzebne jest także parę dodatkowych paczek, oto one: 
+
+gcc w wersji &gt;=3.2 <phrase id="90715">MySQL</phrase> (wersja 3.23 albo wyższa), biblioteka <phrase id="90735">pcre</phrase> (<phrase id="90730">Perl</phrase>-compatible regular expression library) GeoIP. 
+
+Jeśli już będziemy mieli zainstalowane wszystkie wymagane składniki i ściągniętego verlihuba. Możemy przejść do właściwych działań. Kompilujemy i instalujemy. 
+
+Gdy mamy już ściągniętego <phrase id="90745">verlihuba</phrase>, wykonujemy następujące czynności, w zależności od postaci początkowej <phrase id="90746">huba</phrase>. 
+
+W przypadku gdy mamy archiwum .tar z kodem źródłowym, musimy owe archiwum rozpakować, a następnie skompilować i w końcu zainstalować. Wykonujemy to za pomocą poniższych komend: 
+
+tar -zxvf <phrase id="310282">verlihub-<phrase id="310281">0.9.8d_RC1-1</phrase></phrase>.tar.gz cd /root/<phrase id="310277">verlihub-<phrase id="310276">0.9.8d_RC1-1</phrase></phrase> ./configure make make install. 
+
+Gdy posiadamy gotową paczkę RPM, sprawa jest prostsza, ponieważ wykonujemy tylko jedno polecenie: 
+
+rpm –ivh verlihub-0.9.8d_RC1-1.i386.rpm 
+
+W przypadku dystrybucji debianowych sprawa też przedstawia się prosto: 
+
+apt-get install verlihub 
+
+Zanim uruchomimy <phrase id="90747">huba</phrase>, najpierw trzeba przebrnąć przez skrypt konfiguracyjny. W katalogu, do którego rozpakowaliśmy <phrase id="90748">huba</phrase> znajdziemy katalog scripts . Przechodzimy do tego katalogu i uruchamiamy skrypt vh_install . 
+</document>

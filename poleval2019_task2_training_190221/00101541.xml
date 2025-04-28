@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101541">
+kod powrotu ostanio wykonywanego polecenia 
+
+<phrase id="64914">PID</phrase> procesu bieżącej powłoki 
+
+Zmienne środowiskowe (ang.environment variables) 
+
+Definują <phrase id="356839">środowisko użytkownika</phrase>, dostępne dla wszystkich <phrase id="356836">procesów potomnych</phrase>. Można je podzielić na: globalne - widoczne w każdym podshellu 
+
+lokalne - widoczne tylko dla tego shella w którym został ustawione 
+
+Aby bardziej uzmysłowić sobie różnicę między nimi zrób mały eksperyment: otwórz xterma (widoczny podshell) i wpisz: 
+
+x= " napis " echo $x xterm x= " napis " #zdefiniowałeś właśnie zmienną x, która ma wartość " napis " echo $x #wyświetli wartość zmiennej x xterm #wywołanie podshella 
+
+wpisz więc jeszcze raz: 
+
+echo $x #nie pokaże nic, bo zmienne lokalne nie są widoczne w podshellach 
+
+Możesz teraz zainicjować zmienną globalną: 
+
+export x= " napis " 
+
+Teraz zmienna x będzie widoczna w podshellach, jak widać wyżej służy do tego polecenie export, nadaje ono wskazanym zmiennym atrybut zmiennych globalnych. Jeśli napiszesz samo export, opcjonalnie export -p uzyskasz listę aktualnie eksportowanych zmiennych. Na tej liście przed nazwą każdej zmiennej znajduje się zapis: 
+
+To wewnętrzne polecenie <phrase id="64915">BASH-a,</phrase> służące do definiowania zmiennych i nadawania im atrybutów, -x to atrybut eksportu czyli jest to, to samo co polecenie export. Ale tu uwaga! Polecenie declare występuje tylko w <phrase id="64916">BASH-u,</phrase> nie ma go w innych powłokach, natomiast export występuje w <phrase id="64917">ksh</phrase>, <phrase id="64918">ash</phrase> i innych, które korzystają z plików startowych /etc/profile. Dlatego też zaleca się stosowanie polecenia export. 
+
+export -n zmienna 
+
+Spowoduje usunięcie atrybutu eksportu dla danej zmiennej. 
+
+Niektóre przykłady zmiennych środowiskowych: 
+
+$HOME #ścieżka do twojego katalogu domowego $USER #twój login $HOSTNAME #nazwa twojego hosta $OSTYPE #rodzaj systemu operacyjnego itp. dostępne zmienne srodowiskowe można wyświetlić za pomoca polecenia: 
+
+printenv | more 
+
+Zmienne tablicowe 
+
+BASH pozwala na stosowanie zmiennych tablicowych jednowymiarowych. Czym jest tablica? To zmienna która przechowuje listę jakichś wartości (rozdzielonych spacjami), w <phrase id="64920">BASH'u</phrase> nie ma maksymalnego rozmiaru tablic. Kolejne wartości zmiennej tablicowej indeksowane są przy pomocy liczb całkowitych, zaczynając od 0. zmienna=(wartość1 wartość2 wartość3 wartośćn) 
+
+Przykład: 
+
+#!/bin/bash tablica=(element1 element2 element3) echo ${tablica[0]} echo ${tablica[1]} echo ${tablica[2]} 
+</document>

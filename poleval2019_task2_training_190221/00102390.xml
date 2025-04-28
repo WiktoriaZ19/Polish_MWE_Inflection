@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102390">
+Jedną z typowych usterek elektrycznego <phrase id="349005">Rustlera</phrase> jest wygięcie sworznia zwrotnicy (kingpinu). Sworzeń stanowi pionową oś obrotu zwrotnicy i jego wygięcie może powodować problemy ze skręcaniem lub prostowaniem kół po skręcie. 
+
+Zarówno sprawdzenie jak i wymiana kingpinów zajmują raptem parę minut. <phrase id="344286">Traxxas</phrase> oferuje komplet 2 kingpinów wraz z <phrase id="484980">e-clipsami</phrase> jako część numer 3740 ( TH ). 
+
+W celu sprawdzenia lub wymiany kingpinów należy: 
+
+1. Odkręcić koło 
+
+2. Wyjąć półośkę z panewki (ewentualnie z łożyska, jeśli zmieniliśmy panewki na łożyska kulkowe) 
+
+3. Zdemontować obejmę zwrotnicy (caster block) wykręcając 3 śruby mocujące ją odpowiednio do drążka skrętnego camber linku wahacza 
+
+4. Zdjąć e-clips z jednego końca sworznia. Najprościej zrobić to wsuwając malutki śrubokręt miedzy e-clips a ośkę i lekko podważając. 
+
+5. Wypchnąć sworzeń z obejmy zwrotnicy. Jeśli na pierwszy rzut oka widać, że jest wygięty, nie ma wątpliwości, że trzeba go wymienić. Jeśli wygięcie nie jest widoczne, warto sprawdzić dokładniej. Można to zrobić zdejmując drugi e-clips i turlając kingpin po płaskiej powierzchni (np. stole). W ten sposób można zauważyć nawet niewielkie wygięcie. 
+
+Jeśli stwierdziliśmy, ze kingpin kwalifikuje sie do wymiany, montujemy w jego miejsce nowy. Składamy całość z powrotem i powtarzamy powyższe kroki dla drugiego koła. 
+
+Zapobieganie awarii 
+
+Wygięcie kingpinów jest usterką tak częstą, że warto rozważyć zainwestowanie w rozwiązanie, które pozwoli nam pozbyć sie problemu raz na zawsze. Mamy w tym względzie dwie możliwości: bardziej wytrzymałe kingpiny lub sztywniejsze obejmy zwrotnic. 
+
+Bardziej wytrzymałe kingpiny 
+
+Możemy zminimalizować problem wyginania sworzni wymieniając je na bardziej wytrzymałe odpowiedniki. Jedną z możliwości jest użycie kingpinów <phrase id="484982">Team Associated</phrase>, numer części 6227 ( TH ). Są one przeznaczone do modeli serii <phrase id="344291">RC10</phrase> i mają taką samą długość co kingpiny <phrase id="344287">Traxxas</phrase>, ale większą średnicę. Ich montaż wymaga rozwiercenia otworów w zwrotnicach i obejmach zwrotnic do średnicy 3mm. Dodatkowo obejmy zwrotnic wymagają lekkiego podszlifowania, żeby zmieściły sie większe e-clipsy. 
+
+Aluminiowe obejmy zwrotnic 
+
+Alternatywnym rozwiązaniem jest wymiana obejm zwrotnic na ich aluminiowe wersje, które dzięki zdecydowanie większej sztywności nie dopuszczają do wygięcia kingpinów. Obejmy takie produkowane przez <phrase id="484984">firmę <phrase id="344289">Hot Racing</phrase></phrase> , numer części TE1019 . Wymiana obejm na aluminiowe ostatecznie rozwiązuje problem wyginania się kingpinów, ale niestety jest dość kosztowna – ich sugerowana cena detaliczna to 25USD za komplet. 
+</document>

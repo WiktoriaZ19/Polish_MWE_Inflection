@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102111">
+Zmiana przełożenia 
+
+W <phrase id="468833">modelach elektrycznych</phrase> bez <phrase id="468834">skrzyni biegów</phrase>, zmiana przełożenia modelu, poprzez odpowiedni dobór zębatki odbierającej i atakującej, jest jednym z podstawowych elementów dostosowania modelu do warunków, w jakich zamierzamy jeździć. Poniżej przedstawimy podstawowe informacje na temat przełożeń i postaramy się omówić je w sposób jak najprostszy i intuicyjny. Zębatka atakująca (pinion gear) to zębatka najbliższa silnikowi, w modelach elektrycznych montowana wprost na osi wirnika silnika. 
+
+<phrase id="468836">Zębatka odbierająca</phrase> (spur gear) to zębatka, która bezpośrednio współpracuje z zębatką atakująca. Przełożenie główne (Primary Drive Ratio - PDR) to stosunek liczby zębów zębatki odbierającej do liczby zębów <phrase id="468837">zębatki atakującej</phrase>. 
+
+Przełożenie wewnętrzne modelu (Drivetrain Ratio - DTR) wynika z konstrukcji układu przeniesienia napędu i i możemy przyjąć, że jest niezmienne. Przełożenie końcowe (Final Drive Ratio - FDR) to iloczyn PDR i DTR, czyli: 
+
+FDR = PDR · DTR 
+
+Przełożenie końcowe wskazuje ile obrotów musi wykonać silnik, aby nastąpił jeden pełny obrót kół. 
+
+<phrase id="468838">Model <phrase id="292129">Traxxas</phrase> Rustler</phrase> standardowo wyposażony jest w zębatkę atakująca (pinion gear) o 18 zębach i odbierająca (spur gear) o 84 zębach. Możemy stąd wyliczyć przełożenie główne: 
+
+PDR = 84 / 18 = 4.67 
+
+Dla modelu tego przełożenie wewnętrzne (DTR) wynosi 2.72. Zatem przełożenie końcowe wynosi: 
+
+FDR = PDR · DTR = 4.67 · 2.72 = 12.7 
+</document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101264">
+Podatek progresywny 
+
+<phrase id="422658">Podatek progresywny</phrase> - jest metodą obliczania wymiaru podatku, w myśl której wysokość należnego podatku rośnie szybciej niż proporcjonalnie w stosunku do wielkości podstawy opodatkowania. 
+
+Określenie to stosuje się najczęściej w odniesieniu do podatku dochodowego od osób fizycznych. Przy progresywnym systemie opodatkowania stawka opodatkowania (procent płaconego podatku) rośnie wraz ze wzrostem dochodu podatnika. Oznacza to, że podatnik o wyższych dochodach będzie odprowadzał większą część swojego dochodu w formie podatku, niż podatnik o niższym dochodzie. Stanowi to wyraźną różnicę w stosunku do podatku liniowego, gdzie każdy podatnik płaci taką samą część swoich dochodów w formie podatku (np. 19%). 
+
+Niemal we wszystkich progresywnych skalach podatkowych efektywna stopa opodatkowania (stosunek kwoty ostatecznie należnego podatku do wartości podstawy opodatkowania) jest określana nominalnie dla pewnych przedziałów wartości podstawy. Graniczne kwoty tych przedziałów nazywa się progami podatkowymi. Jeżeli dochód podatnika w danym roku podatkowym przekroczy wartość któregoś progu dochodowego, to nadwyżka dochodu nad wartością progu podlega opodatkowaniu w oparciu o wyższą stawkę opodatkowania. 
+
+Podatek w kolejnych przedziałach dochodowych jest obliczany jako suma podatku płaconego za górną kwotę graniczną niższego przedziału dochodowego (według skali podatkowej) oraz podatku od kwoty nadwyżki nad kwotę graniczną według stawki właściwego przedziału. 
+
+Przykład 
+
+Zakładamy, że skala podatkowa przewiduje dwa przedziały dochodowe (a więc jeden próg) i następujące przypisane do nich stawki opodatkowania: 
+
+0 <phrase id="50799">zł</phrase> - 30.000 <phrase id="50798">zł</phrase> - opodatkowane stawką 20% 
+
+ponad 30.000 <phrase id="50800">zł</phrase> - opodatkowane stawką 50% 
+
+Podatnik A uzyskał w roku podatkowym dochód w wysokości 25.000 <phrase id="50801">zł</phrase>. Całość jego dochodu mieści się w pierwszym przedziale dochodowym, zatem nie przekroczył on progu podatkowego. Cały jego dochód zostanie opodatkowany stawką 20%, zatem wymiar podatku (należna kwota podatku) wyniesie 5.000 <phrase id="50802">zł</phrase>. 
+
+Podatnik B uzyskał w tym samym roku podatkowym dochód w wysokości 40.000 <phrase id="50803">zł</phrase>. Przekroczył on zatem próg podatkowy i w stosunku do niego będą zastosowane różne stawki opodatkowania. 30.000 <phrase id="50804">zł</phrase> z jego dochodu zostanie opodatkowane stawką 20%, natomiast nadwyżka jego dochodu nad kwotą progu podatkowego zostanie opodatkowana stawką 50%. 
+
+30.000 zł x 20% = 6.000 <phrase id="50807">zł</phrase> 
+
+10.000 zł x 50% = 5.000 zł 
+
+Podatnik B zapłaci w sumie 11.000 <phrase id="50809">zł</phrase> podatku. Część jego dochodu została opodatkowana mniejszą, a część większą stawką opodatkowania. Efektywna stawka opodatkowania wyniosła w tym przypadku 27,50%: 
+
+11.000 zł / 40.000 zł = 27,5% 
+
+Kwota wolna od podatku 
+
+Przy progresywnej formie opodatkowania bardzo często mamy do czynienia z kwotą wolną od podatku, która jest odliczana od podstawy opodatkowania. 
+</document>

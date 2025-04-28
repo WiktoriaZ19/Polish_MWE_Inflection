@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102393">
+<phrase id="485096">Spadek napięcia</phrase> przy przewodzeniu dla czerwonej diody LED wynosi około 1.5V, prąd nie powinien przekroczyć 20mA. <phrase id="485095">Sygnał Stand By</phrase>, stanowiący zasilanie diody, to napięcie 5V. Rezystor dobierzemy tak, aby prąd płynący przez diodę był równy mniej więcej połowie prądu maksymalnego, czyli 20mA / 2 = 10mA = 0.01 A. 
+
+Z <phrase id="485097">prawa <phrase id="345380">Ohma</phrase></phrase>: 
+
+R = (Uz – Ud) / Id 
+
+czyli 
+
+R 1 = (5V – 1.5V) / 0.01A = 350Ω 
+
+Użyjemy dostępnego w handlu rezystora 330Ω. 
+
+Spadek napięcia przy przewodzeniu dla zielonej diody LED wynosi około 3V, prąd maksymalny taki sam jak dla czerwonej. W tym wypadku opór potrzebnego rezystora wyniesie więc: 
+
+R 2 = (5V – 3V) / 0.01A = 200Ω 
+
+Użyjemy dostępnego w handlu rezystora 220Ω 
+
+Potrzebne nam zatem będą : 
+
+diody LED: czerwona i zielona oprawki na diody (2 szt) 
+
+rezystory: 330Ω i 220Ω 
+
+płytka montażowa – najlepiej zakupić jest najmniejszą uniwersalną płytkę montażową. 
+
+Wszystkie elementy do nabycia w sklepie elektronicznym. 
+
+Teraz należy dopasować diody i rezystory do układu ścieżek na zakupionej płytce tak, aby zamontować je zgodnie ze schematem, czyli: 
+
+Stand By do anody (+) <phrase id="485100">diody D1</phrase>, katoda (-) diody poprzez rezystor R1 do masy. 
+
+Power OK do anody <phrase id="485101">diody D2</phrase>, katoda diody poprzez rezystor R2 do masy. 
+
+Do płytki musimy zatem doprowadzić przewody: Stand By (fioletowy), Power OK(szary) oraz masę (czarny). 
+
+Wskazówka: anodę i katodę diody można zazwyczaj rozpoznać po długości: anoda (+) to dłuższa z końcówek diody, katoda (-) to krótsza. 
+
+Po wykonaniu połączenia testujemy: 
+
+przy podłączeniu zasilania powinna się świecić doda D 1 (czerwona), sygnalizująca stan Stand By 
+
+po włączeniu zasilacza włącznikiem powinna zaświecić się dodatkowo dioda D 2 (zielona), sygnalizująca stan Power OK 
+
+Wyprowadzenie napięcia 
+
+Następnym krokiem będzie wyprowadzenie napięcia 12V, 5V i 3.3V. W tym celu potrzebne nam będą trzy pary gniazd bananowych, w każdej parze jedno czerwone i jedno czarne. 
+</document>

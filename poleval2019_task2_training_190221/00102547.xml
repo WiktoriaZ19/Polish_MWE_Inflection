@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102547">
+Wiele osób zna PHP, dość często go wykorzystuje. Nie zdają sobie oni jednak sprawy, co jeszcze potrafi ten język. 
+
+Można go na przykład wykorzystać jako <phrase id="468237">język skryptowy systemu</phrase>. I to systemu <phrase id="468234">Microsoft Windows</phrase>. 
+
+Ze strony PHP: Downloads pobierz wersję PHP spakowaną w archiwum zip. (Podczas pisania artykułu była to wersja PHP 5.2.5 zip package ). Archiwum do pobrania to ok. 10MB. 
+
+Teraz zajmiemy się skojarzeniem plików *.php z zainstalowanym parserem. Przejdź do: 
+
+Panel sterowania &gt; Opcje folderów &gt; Typy plików. 
+
+Wybierz Nowy , aby dodać dodać nowe rozszerzenie. 
+
+Okno, które się nam pojawi wypełniamy wg upodobań. 
+
+Kolejny krok to odnalezienie na liście " Zarejestrowane typy plików " dodanej pozycji i wybranie jej opcji zaawansowanych. 
+
+W dostępnych opcjach możemy zmienić ikonę dla skojarzonych plików (np. wybierz Przeglądaj i znajdź plik C:phpphp.exe ). 
+
+Należy także uzupełnić pola Akcje czynnością domyślną. Wybierz przycisk Nowa... i wypełnij odpowiednie pola. 
+
+W przykładzie jako nazwa zostało wpisane " open ", jako " Aplikacja używana do wykonania akcji " - C:phpphp.exe . 
+
+Możesz już zamknąć Opcje folderów 
+
+Możemy teraz utworzyć nasz pierwszy skrypt typu Hello World . 
+
+Skrypt wypisuje przyjazny komunikat, po czym czeka na wprowadzenie dowolnego ciągu znaków ze standardowego wejścia (klawiatury). Zapobiega to natychmiastowemu zamknięciu skryptu po jego wykonaniu. 
+
+Nasze dalsze postępowanie to już tylko kwestia wyobraźni. 
+</document>

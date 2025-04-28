@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102395">
+My również opiszemy taką przeróbkę, jednak zamiast opisywać jak zrobić to najprościej, spróbujemy położyć nacisk na to, jak wykonać taki zasilacz rozumiejąc, co się robi i przy okazji wykorzystać jak najwięcej funkcji, które taki zasilacz oferuje. 
+
+Aktualnie można spotkać dwa rodzaje zasilaczy do <phrase id="485116">komputerów <phrase id="347509">PC</phrase></phrase>: typu AT i ATX. Zasilacze typu AT wyszły już z użycia i w praktyce można nabyć jedynie egzemplarze używane. Zasilacz typu ATX można kupić w dowolnym sklepie komputerowym. Ten artykuł opisuje przeróbkę zasilacza typu ATX i nie ma zastosowania do <phrase id="485112">zasilaczy AT</phrase>. Uwaga: <phrase id="485111">zasilacz ATX</phrase> jest urządzeniem elektrycznym. Dotknięcie któregoś z jego elementów w chwili, gdy znajduje się pod napięciem, może doprowadzić do porażenia prądem. Ponadto należy pamiętać, że nawet po zupełnym odłączeniu przewodu zasilającego, przez jakiś czas w kondensatorach zasilacza utrzymuje się napięcie. 
+
+Opisana tu przeróbka jest bardzo prosta i nie wymaga ani specjalnej wiedzy, ani doświadczenia. Pamiętaj jednak, że podejmując się jej robisz to na własną odpowiedzialność i autor artykułu nie ponosi żadnej odpowiedzialności za szkody wynikłe w trakcie lub w wyniku tej przeróbki. 
+
+Zasilacze ATX różnią sie między sobą parametrami i wydajnością. Wynika to z faktu, że specyfikacja ATX zmieniała się w czasie, a ponadto nie wszyscy producenci w jednakowym stopniu stosują sie do specyfikacji. Dlatego przy realizacji tego projektu bardzo pomocny będzie miernik uniwersalny, który pozwoli sprawdzić rzeczywiste parametry przerabianego egzemplarza. W zupełności wystarczy najprostszy miernik dostępny w każdym sklepie elektronicznym lub markecie budowlanym. 
+
+Lista potrzebnych części zależy od funkcjonalności, w jaką zdecydujemy się wyposażyć nasz zasilacz. W artykule opiszemy następujące funkcje: 
+
+Wyłącznik Napięcie +12V wyprowadzone na gniazdo bananowe 
+
+Napięcie +5V wyprowadzone na gniazdo bananowe 
+
+Napięcie +3.3V wyprowadzone na gniazdo bananowe 
+
+<phrase id="485114">Sygnał Power OK</phrase> informujący o poprawnej pracy zasilacza wyprowadzony na <phrase id="485115">diodę LED</phrase> 
+
+Sygnał Stand By informujący o gotowości zasilacza wyprowadzony na diodę LED 
+
+Opcjonalne obciążenie wyjścia +5V zapobiegające spadkom napięcia na wyjściu +12V, wyposażone w osobny wyłącznik 
+</document>

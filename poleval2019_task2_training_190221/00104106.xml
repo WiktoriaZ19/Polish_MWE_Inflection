@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00104106">
+W tym punkcie przedstawiamy nowy <phrase id="484536">algorytm ujednoznaczniania morfosyntaktycznego</phrase>. Chociaż algorytm opiera się o znane z literatury metody, nowością jest połączenie kilku technik, szczególnie obiecujących z punktu widzenia przetwarzania <phrase id="484537">języków słowiańskich</phrase>. Techniki te wymieniamy poniżej: 
+
+uczenie pamięciowe ze względu na zdolność do wnioskowania na podstawie słabych przesłanek i bogatego zbioru cech (por. s. 28), 
+
+znakowanie warstwowe ze względu na duży rozmiar i pozycyjny charakter tagsetów typowych dla języków słowiańskich, 
+
+znakowanie jako analiza morfosyntaktyczna i ujednoznacznianie (działanie dwuetapowe) ze względu na mnogość form w językach fleksyjnych. 
+
+Problem wnioskowania na podstawie słabych przesłanek wydaje się szczególnie istotny w przypadku dużych tagsetów: należy się liczyć z obecnością nie tylko rzadkich form wyrazowych, ale także klas niejednoznaczności reprezentowanych przez niewielką liczbę przykładów uczących. <phrase id="484538">Metoda znakowania warstwowego</phrase> oraz podejścia dwuetapowego sprawdziły się niejednokrotnie w znakowaniu języków słowiańskich (por. rozdz. 2.4). Stosowane wcześniej metody cechował jednak duży stopień komplikacji. Zasadniczą zaletą proponowanego przez nas algorytmu jest duża prostota. Co więcej, jest on praktycznie niezależny od języka: jedyną wymaganą informacją związaną z językiem jest definicja tagsetu oraz definicja zbioru cech. Poza tym algorytm nie wymaga żadnych reguł pisanych ręcznie ani nawet definicji klas niejednoznaczności. Algorytm wprowadza również modyfikację stosowanych wcześniej modeli znakowania warstwowego (Piasecki i Godlewski, 2006b; Acedanski, 2010; Tufis, 1999): zamiast wymagać definicji atrybutów tagsetu stanowiących osobne warstwy, klasa gramatyczna, a także każdy atrybut zdefiniowany w tagsecie traktowany jest jako samodzielna warstwa. Innymi słowy, stosowany jest model warstwowy, gdzie wprowadzamy warstw dla tagsetu zawierającego atrybutów. 
+
+W algorytmie świadomie zrezygnowaliśmy z jawnego podziału danych na klasy niejednoznaczności. Dzięki temu proponowany model jest bardzo prosty. Klasy niejednoznaczności pojawiają się niejako nie wprost: stosowany przez nas zbiór cech zawiera cechy odpowiadające możliwym wartościom klasy gramatycznej oraz wartościom wszystkich atrybutów w tagsecie -- co efektywnie stanowi klasy niejednoznaczności zdefiniowane z osobna dla każdej warstwy. 
+
+Opisywany algorytm oraz jego implementacja wykonane zostały na potrzeby projektu NEKST. Powstały w ten sposób tager nazwany został <phrase id="484544">Wrocław Memory-Based Tagger</phrase>, WMBT. Od tej pory w ten sposób będziemy nazywać zarówno zaproponowany w tym punkcie algorytm, jak i jego implementację w postaci działającego tagera. 
+</document>

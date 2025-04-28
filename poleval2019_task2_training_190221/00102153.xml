@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00102153">
+Typowy <phrase id="468106">cykl rozkazowy</phrase> w systemie o architekturze <phrase id="80959">von Neumanna</phrase> zaczyna się od pobrania rozkazu z pamięci i przesłania go do rejestru rozkazów (ang. <phrase id="468108">instruetion register</phrase>). Rozkaz jest następnie dekodowany i realizowany (może spowodować pobranie argumentów z pamięci i umieszczenie ich w innym rejestrze wewnętrznym). Po wykonaniu rozkazu na argumentachjego wynik można z powrotem przechować w pamięci. Zauważmy, że jednostka pamięci widzi tylko strumień adresów pamięci. Nie jest jej znany sposób, w jaki one powstały (licznik rozkazów, indeksowanie, modyfikacje pośrednie, adresy literalne itp.) ani czemu służą (rozkazy lub dane). Z uwagi na to możemy zaniedbać sposób generowania adresu pamięci przez program. Interesujemy się tylko ciągiem adresów pamięci wytwarzanych przez wykonywany program. 
+</document>

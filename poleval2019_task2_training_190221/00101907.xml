@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="00101907">
+<phrase id="80459">HTTP</phrase> jest <phrase id="467860">protokołem bezstanowym</phrase>. Oznacza to, że protokół nie posiada wbudowanego sposobu utrzymania stanu pomiędzy dwiema transakcjami. Kiedy użytkownik żąda jednej strony, a później następnej, <phrase id="80460">HTTP</phrase> nie jest w stanie określić, czy oba żądania pochodzą od tego samego użytkownika. Obsługa sesji polega na zapisywaniu plików tymczasowych na <phrase id="467861">dysku twardym</phrase> serwera. 
+
+Sesje w <phrase id="80454">PHP</phrase> są prowadzone przez unikatowy identyfikator sesji ( <phrase id="467864">session id - sid</phrase> ), kryptograficznie losową liczbę. Identyfikator sesji jest generowany przez <phrase id="80455">PHP</phrase> i przechowywany po stronie klienta podczas trwania sesji. Może on być przechowywany w komputerze użytkownika jako cookie lub przekazywane przez <phrase id="80456">URL</phrase>. 
+
+Przekazywanie SID przez <phrase id="80461">URL</phrase> 
+
+Jako przykład posłuży strona <phrase id="80462">forum.wmii.pl</phrase> . Po zalogowaniu otrzymujemy adres typu http://forum.wmii.pl/index.php?sid=3c633f5c458e342a8c679063f56c08c7. Wartość przypisana do sid to właśnie nasz identyfikator. 
+
+W <phrase id="80464">PHP</phrase> dostępna jest zmienna $SID , którą możemy wydrukować. 
+
+Przy aktywowanej opcji session.use_trans_sid SID będzie automatycznie dodawany w przypadku ścieżek względnych. 
+
+Ciasteczka (cookies) 
+
+Ciasteczka stanowią niewielkie pliki na dysku twardym klienta, przesyłane do serwera przez przeglądarkę <phrase id="80466">WWW</phrase> podczas wystąpienia żądania <phrase id="80467">HTTP</phrase>. Mają one postać klucz-wartość. 
+
+Zarządzanie sesjami oparte na adresach URL wnosi dodatkowe niebezpieczeństwo w porównaniu do zarządzania sesjami opartego na ciasteczkach. Użytkownicy mogą wysłać URL, który zawiera aktywny numer sesji do znajomych przez e-mail lub użytkownicy mogą zapisać <phrase id="80469">URL</phrase> zawierający SID do zakładek i wchodzić na stronę zawsze z tym samym numerem sesji. 
+
+Są to powody odchodzenia od wykorzystywania adresu <phrase id="80470">URL</phrase> do przekazywania identyfikacji sesji. We współczesnych przeglądarkach wykorzystanie ciasteczek jest powszechne i praktycznie każda przeglądarka akceptuje ciasteczka lub w najgorszym przypadku zadaje użytkownikowi pytanie o zgodę na przyjecie i obsługę ciasteczka. 
+
+PHP może być skonfigurowany na rożne sposoby na naszym serwerze. W celu ustalenia, które z opcji PHP są aktywne w naszej instalacji, możemy posłużyć sie funkcja phpinfo . Należy przygotować plik, którego treść składa się jedynie z wywołania tej funkcji. 
+</document>
